@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h2&gt;Nacht Elk. - UART CH340G &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+20.01.2022</description>
+<packages>
+<package name="SOIC-16" urn="urn:adsk.eagle:footprint:33665311/4">
+<description>&lt;H2&gt; Nacht Elk. - Uart CH340G&lt;/H2&gt;
+&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt; Package: &lt;strong&gt;SOIC-16&lt;/strong&gt;
+&lt;br&gt; 
+Dimensions(LxWxH): &lt;strong&gt;10x3.8x1.75 mm&lt;/strong&gt;&lt;/P&gt;
+17.01.2022</description>
+<smd name="16" x="2.5178" y="4.5212" dx="1.1" dy="0.5" layer="1"/>
+<smd name="15" x="2.5178" y="3.2512" dx="1.1" dy="0.5" layer="1"/>
+<smd name="14" x="2.5178" y="1.9812" dx="1.1" dy="0.5" layer="1"/>
+<smd name="13" x="2.5178" y="0.7112" dx="1.1" dy="0.5" layer="1"/>
+<smd name="12" x="2.5178" y="-0.5588" dx="1.1" dy="0.5" layer="1"/>
+<smd name="11" x="2.5178" y="-1.8288" dx="1.1" dy="0.5" layer="1"/>
+<smd name="10" x="2.5178" y="-3.0988" dx="1.1" dy="0.5" layer="1"/>
+<smd name="9" x="2.5178" y="-4.3688" dx="1.1" dy="0.5" layer="1"/>
+<smd name="1" x="-2.5273" y="4.5212" dx="1.1" dy="0.5" layer="1"/>
+<smd name="2" x="-2.5273" y="3.2512" dx="1.1" dy="0.5" layer="1"/>
+<smd name="3" x="-2.5273" y="1.9812" dx="1.1" dy="0.5" layer="1"/>
+<smd name="4" x="-2.5273" y="0.7112" dx="1.1" dy="0.5" layer="1"/>
+<smd name="5" x="-2.5273" y="-0.5588" dx="1.1" dy="0.5" layer="1"/>
+<smd name="6" x="-2.5273" y="-1.8288" dx="1.1" dy="0.5" layer="1"/>
+<smd name="7" x="-2.5273" y="-3.0988" dx="1.1" dy="0.5" layer="1"/>
+<smd name="8" x="-2.5273" y="-4.3688" dx="1.1" dy="0.5" layer="1"/>
+<wire x1="-1.905" y1="-4.666" x2="-1.905" y2="4.826" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="4.826" x2="-1.651" y2="5.08" width="0.127" layer="51" curve="-90"/>
+<wire x1="-1.651" y1="5.08" x2="-0.635" y2="5.08" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-4.666" x2="-1.651" y2="-4.92" width="0.127" layer="51" curve="90"/>
+<wire x1="-1.651" y1="-4.92" x2="1.641" y2="-4.92" width="0.127" layer="51"/>
+<wire x1="0.635" y1="5.08" x2="1.641" y2="5.08" width="0.127" layer="51"/>
+<wire x1="1.641" y1="5.08" x2="1.895" y2="4.826" width="0.127" layer="51" curve="-90"/>
+<wire x1="1.641" y1="-4.92" x2="1.895" y2="-4.666" width="0.127" layer="51" curve="90"/>
+<wire x1="1.895" y1="-4.666" x2="1.895" y2="4.826" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="5.08" x2="0.635" y2="5.08" width="0.127" layer="51" curve="180"/>
+<wire x1="-1.905" y1="-4.666" x2="-1.905" y2="4.826" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="4.826" x2="-1.651" y2="5.08" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="5.08" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-4.666" x2="-1.651" y2="-4.92" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.651" y1="-4.92" x2="1.641" y2="-4.92" width="0.127" layer="21"/>
+<wire x1="0.635" y1="5.08" x2="1.641" y2="5.08" width="0.127" layer="21"/>
+<wire x1="1.641" y1="5.08" x2="1.895" y2="4.826" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.641" y1="-4.92" x2="1.895" y2="-4.666" width="0.127" layer="21" curve="90"/>
+<wire x1="1.895" y1="-4.666" x2="1.895" y2="4.826" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="5.08" x2="0.635" y2="5.08" width="0.127" layer="21" curve="180"/>
+<circle x="-2.4892" y="5.4864" radius="0.0762" width="0.2032" layer="51"/>
+<circle x="-2.4892" y="5.4864" radius="0.0762" width="0.2032" layer="21"/>
+<text x="0" y="6.35" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="-6.35" size="1.016" layer="27" font="vector" align="center">&gt;Value</text>
+<polygon width="0.127" layer="39">
+<vertex x="-3.302" y="-5.207"/>
+<vertex x="-3.302" y="5.334"/>
+<vertex x="3.302" y="5.334"/>
+<vertex x="3.302" y="-5.207"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOIC-16" urn="urn:adsk.eagle:package:33665313/5" type="model">
+<description>&lt;H2&gt; Nacht Elk. - Uart CH340G&lt;/H2&gt;
+&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt; Package: &lt;strong&gt;SOIC-16&lt;/strong&gt;
+&lt;br&gt; 
+Dimensions(LxWxH): &lt;strong&gt;10x3.8x1.75 mm&lt;/strong&gt;&lt;/P&gt;
+17.01.2022</description>
+<packageinstances>
+<packageinstance name="SOIC-16"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CH340G" urn="urn:adsk.eagle:symbol:33665312/2">
+<description>&lt;h2&gt;Nacht Elk. - UART CH340G &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt; UART CH340G&lt;/p&gt;
+20.01.2022</description>
+<pin name="GND" x="-12.446" y="7.62" length="middle" direction="pwr"/>
+<pin name="TX" x="-12.446" y="5.08" length="middle"/>
+<pin name="RX" x="-12.446" y="2.54" length="middle"/>
+<pin name="V3" x="-12.446" y="0" length="middle"/>
+<pin name="D+" x="-12.446" y="-2.54" length="middle"/>
+<pin name="D-" x="-12.446" y="-5.08" length="middle"/>
+<pin name="XI" x="-12.446" y="-7.62" length="middle" direction="pas"/>
+<pin name="XO" x="-12.446" y="-10.16" length="middle" direction="pas"/>
+<pin name="CTS" x="12.954" y="-10.16" length="middle" rot="R180"/>
+<pin name="DSR" x="12.954" y="-7.62" length="middle" rot="R180"/>
+<pin name="RI" x="12.954" y="-5.08" length="middle" rot="R180"/>
+<pin name="DCD" x="12.954" y="-2.54" length="middle" rot="R180"/>
+<pin name="DTR" x="12.954" y="0" length="middle" rot="R180"/>
+<pin name="RTS" x="12.954" y="2.54" length="middle" rot="R180"/>
+<pin name="RS232" x="12.954" y="5.08" length="middle" rot="R180"/>
+<pin name="VCC" x="12.954" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-7.366" y1="7.62" x2="-7.366" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.366" y1="-10.16" x2="-4.826" y2="-12.7" width="0.254" layer="94" curve="90"/>
+<wire x1="-4.826" y1="-12.7" x2="5.334" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.334" y1="-12.7" x2="7.874" y2="-10.16" width="0.254" layer="94" curve="90"/>
+<wire x1="7.874" y1="-10.16" x2="7.874" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.874" y1="7.62" x2="5.334" y2="10.16" width="0.254" layer="94" curve="90"/>
+<wire x1="5.334" y1="10.16" x2="-4.826" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-4.826" y1="10.16" x2="-7.366" y2="7.62" width="0.254" layer="94" curve="90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NACHTELK_UART_CH340" prefix="U" uservalue="yes" urn="urn:adsk.eagle:component:33665314/6">
+<description>&lt;h2&gt;Nacht Elk. - UART CH340G &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt;Nacht Elk. - UART CH340G &lt;br&gt;
+Company: &lt;strong&gt;WCH &lt;/strong&gt; &lt;br&gt;
+Operating Voltage: &lt;strong&gt;3.3V and 5V&lt;/strong&gt; &lt;br&gt;
+Operating Speed: &lt;strong&gt; 12MHz&lt;/strong&gt; &lt;br&gt;
+Baud rate: &lt;strong&gt;50bps up to 2Mbps &lt;/strong&gt; &lt;br&gt;
+
+Operating temperature: &lt;strong&gt; -40 °C up to +85°C &lt;/strong&gt;&lt;br&gt;
+Package: &lt;strong&gt;SOIC-16 &lt;/strong&gt;&lt;br&gt;
+&lt;a href = "https://www.robolinkmarket.com/Data/EditorFiles/PDF/ch340g-ic-datasheet.pdf" &gt;Datasheet &lt;/a&gt;
+&lt;/p&gt;
+
+
+20.01.2022</description>
+<gates>
+<gate name="G$1" symbol="CH340G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-16">
+<connects>
+<connect gate="G$1" pin="CTS" pad="9"/>
+<connect gate="G$1" pin="D+" pad="5"/>
+<connect gate="G$1" pin="D-" pad="6"/>
+<connect gate="G$1" pin="DCD" pad="12"/>
+<connect gate="G$1" pin="DSR" pad="10"/>
+<connect gate="G$1" pin="DTR" pad="13"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RI" pad="11"/>
+<connect gate="G$1" pin="RS232" pad="15"/>
+<connect gate="G$1" pin="RTS" pad="14"/>
+<connect gate="G$1" pin="RX" pad="3"/>
+<connect gate="G$1" pin="TX" pad="2"/>
+<connect gate="G$1" pin="V3" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+<connect gate="G$1" pin="XI" pad="7"/>
+<connect gate="G$1" pin="XO" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33665313/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BAUD-RATE" value="50bps up to 2Mbps" constant="no"/>
+<attribute name="PACKAGE" value="SOIC-16" constant="no"/>
+<attribute name="SPEED" value="12MHz" constant="no"/>
+<attribute name="TEMPERATURE" value="-40 °C up to +85°C " constant="no"/>
+<attribute name="VALUE" value="CH340G" constant="no"/>
+<attribute name="VOLTAGE" value="3.3V and 5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
