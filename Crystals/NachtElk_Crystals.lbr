@@ -156,7 +156,7 @@
 <library>
 <description>&lt;H2&gt; Nacht Elk. - Crystal Oscillator &lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-
+  
 03.02.2022</description>
 <packages>
 <package name="HC-49S" urn="urn:adsk.eagle:footprint:33863685/1">
