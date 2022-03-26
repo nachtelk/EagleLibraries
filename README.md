@@ -1,6 +1,6 @@
 # Nacht Elk. Eagle Libraries
 
-**This is an open source eagle library for all pcb lovers and eagle community.**
+**This is an open source Eagle library for all PCB lovers and Eagle community.**
 
 
 # Step by step install
