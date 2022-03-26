@@ -5,7 +5,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -51,7 +51,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -75,6 +75,178 @@
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 04.02.2022</description>
 <packages>
+<package name="DPAK-BACKUP" urn="urn:adsk.eagle:footprint:34735180/1">
+<description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;Nacht Elk. - DPAK &lt;br&gt;
+&lt;a href= "https://www.infineon.com/export/sites/default/en/product/packages/_images/09018a908069e1d5.png_1305785904.png"&gt;Datasheet &lt;/a&gt;
+&lt;/p&gt;
+
+20.03.2022</description>
+<wire x1="0" y1="5.9025" x2="0" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="0" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0.3175" y1="0" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="5.9025" x2="0.3175" y2="6.22" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.223" y1="0" x2="6.5" y2="0.277" width="0.127" layer="21" curve="90"/>
+<wire x1="6.5" y1="0.277" x2="6.5" y2="5.9025" width="0.127" layer="21"/>
+<wire x1="6.5" y1="5.9025" x2="6.1825" y2="6.22" width="0.127" layer="21" curve="90"/>
+<wire x1="6.1825" y1="6.22" x2="0.3175" y2="6.22" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="1.651" y2="0" width="0.127" layer="21"/>
+<wire x1="1.651" y1="0" x2="4.953" y2="0" width="0.127" layer="21"/>
+<wire x1="4.953" y1="0" x2="6.223" y2="0" width="0.127" layer="21"/>
+<wire x1="5.9835" y1="1.9685" x2="5.9835" y2="6.2085" width="0.127" layer="21"/>
+<wire x1="5.9665" y1="1.9685" x2="0.5835" y2="1.9685" width="0.127" layer="21"/>
+<wire x1="5.9665" y1="6.2085" x2="0.5835" y2="6.2085" width="0.127" layer="21"/>
+<wire x1="0.5835" y1="6.2085" x2="0.5665" y2="6.2085" width="0.127" layer="21"/>
+<wire x1="0.5835" y1="1.9685" x2="0.5835" y2="6.2085" width="0.127" layer="21"/>
+<wire x1="0.381" y1="-3.81" x2="1.651" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-3.81" x2="1.651" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="-3.81" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="4.953" y1="-3.81" x2="6.223" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="6.223" y1="-3.81" x2="6.223" y2="0" width="0.127" layer="21"/>
+<wire x1="4.953" y1="-3.81" x2="4.953" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="5.9025" x2="0" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="51" curve="90"/>
+<wire x1="0.3175" y1="0" x2="0.381" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="5.9025" x2="0.3175" y2="6.22" width="0.127" layer="51" curve="-90"/>
+<wire x1="6.223" y1="0" x2="6.5" y2="0.277" width="0.127" layer="51" curve="90"/>
+<wire x1="6.5" y1="0.277" x2="6.5" y2="5.9025" width="0.127" layer="51"/>
+<wire x1="6.5" y1="5.9025" x2="6.1825" y2="6.22" width="0.127" layer="51" curve="90"/>
+<wire x1="6.1825" y1="6.22" x2="0.3175" y2="6.22" width="0.127" layer="51"/>
+<wire x1="0.381" y1="0" x2="1.651" y2="0" width="0.127" layer="51"/>
+<wire x1="1.651" y1="0" x2="4.953" y2="0" width="0.127" layer="51"/>
+<wire x1="4.953" y1="0" x2="6.223" y2="0" width="0.127" layer="51"/>
+<wire x1="5.9835" y1="1.9685" x2="5.9835" y2="6.2085" width="0.127" layer="51"/>
+<wire x1="5.9665" y1="1.9685" x2="0.5835" y2="1.9685" width="0.127" layer="51"/>
+<wire x1="5.9665" y1="6.2085" x2="0.5835" y2="6.2085" width="0.127" layer="51"/>
+<wire x1="0.5835" y1="6.2085" x2="0.5665" y2="6.2085" width="0.127" layer="51"/>
+<wire x1="0.5835" y1="1.9685" x2="0.5835" y2="6.2085" width="0.127" layer="51"/>
+<wire x1="0.381" y1="-3.81" x2="1.651" y2="-3.81" width="0.127" layer="51"/>
+<wire x1="1.651" y1="-3.81" x2="1.651" y2="0" width="0.127" layer="51"/>
+<wire x1="0.381" y1="-3.81" x2="0.381" y2="0" width="0.127" layer="51"/>
+<wire x1="4.953" y1="-3.81" x2="6.223" y2="-3.81" width="0.127" layer="51"/>
+<wire x1="6.223" y1="-3.81" x2="6.223" y2="0" width="0.127" layer="51"/>
+<wire x1="4.953" y1="-3.81" x2="4.953" y2="0" width="0.127" layer="51"/>
+<smd name="D1" x="3.302" y="4.572" dx="5.24" dy="5.4" layer="1" rot="R90"/>
+<smd name="D2" x="1.016" y="-2.54" dx="2.3" dy="1" layer="1" rot="R90"/>
+<smd name="D3" x="5.588" y="-2.54" dx="2.3" dy="1" layer="1" rot="R90"/>
+<rectangle x1="0.508" y1="-3.683" x2="1.524" y2="-1.397" layer="51"/>
+<rectangle x1="5.08" y1="-3.683" x2="6.096" y2="-1.397" layer="51"/>
+<rectangle x1="0.635" y1="2.032" x2="5.969" y2="7.112" layer="51"/>
+<polygon width="0.127" layer="39">
+<vertex x="0.381" y="-4.191"/>
+<vertex x="1.905" y="-4.191"/>
+<vertex x="1.905" y="-3.683"/>
+<vertex x="1.905" y="-0.254"/>
+<vertex x="2.54" y="-0.254"/>
+<vertex x="4.699" y="-0.254"/>
+<vertex x="4.699" y="-2.413"/>
+<vertex x="4.699" y="-4.191"/>
+<vertex x="6.477" y="-4.191"/>
+<vertex x="6.477" y="-0.254"/>
+<vertex x="6.731" y="-0.254"/>
+<vertex x="6.731" y="6.477"/>
+<vertex x="6.223" y="6.477"/>
+<vertex x="6.223" y="7.366"/>
+<vertex x="5.588" y="7.366"/>
+<vertex x="0.508" y="7.366"/>
+<vertex x="0.508" y="6.477"/>
+<vertex x="-0.254" y="6.477"/>
+<vertex x="-0.254" y="6.096"/>
+<vertex x="-0.254" y="-0.254"/>
+<vertex x="0.127" y="-0.254"/>
+<vertex x="0.127" y="-4.191"/>
+</polygon>
+<text x="8.89" y="8.89" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="8.89" y="-5.08" size="1.016" layer="27" font="vector" align="center">&gt;Value</text>
+</package>
+<package name="DPAK" urn="urn:adsk.eagle:footprint:34735087/3">
+<description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;Nacht Elk. - DPAK &lt;br&gt;
+&lt;a href= "https://www.infineon.com/export/sites/default/en/product/packages/_images/09018a908069e1d5.png_1305785904.png"&gt;Datasheet &lt;/a&gt;
+&lt;/p&gt;
+
+20.03.2022</description>
+<wire x1="0" y1="5.9025" x2="0" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="0" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0.3175" y1="0" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="5.9025" x2="0.3175" y2="6.22" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.223" y1="0" x2="6.5" y2="0.277" width="0.127" layer="21" curve="90"/>
+<wire x1="6.5" y1="0.277" x2="6.5" y2="5.9025" width="0.127" layer="21"/>
+<wire x1="6.5" y1="5.9025" x2="6.1825" y2="6.22" width="0.127" layer="21" curve="90"/>
+<wire x1="6.1825" y1="6.22" x2="0.3175" y2="6.22" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="1.651" y2="0" width="0.127" layer="21"/>
+<wire x1="1.651" y1="0" x2="4.953" y2="0" width="0.127" layer="21"/>
+<wire x1="4.953" y1="0" x2="6.223" y2="0" width="0.127" layer="21"/>
+<wire x1="5.9835" y1="1.9685" x2="5.9835" y2="6.2085" width="0.127" layer="21"/>
+<wire x1="5.9665" y1="1.9685" x2="0.5835" y2="1.9685" width="0.127" layer="21"/>
+<wire x1="5.9665" y1="6.2085" x2="0.5835" y2="6.2085" width="0.127" layer="21"/>
+<wire x1="0.5835" y1="6.2085" x2="0.5665" y2="6.2085" width="0.127" layer="21"/>
+<wire x1="0.5835" y1="1.9685" x2="0.5835" y2="6.2085" width="0.127" layer="21"/>
+<wire x1="0.381" y1="-3.81" x2="1.651" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-3.81" x2="1.651" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="-3.81" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="4.953" y1="-3.81" x2="6.223" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="6.223" y1="-3.81" x2="6.223" y2="0" width="0.127" layer="21"/>
+<wire x1="4.953" y1="-3.81" x2="4.953" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="5.9025" x2="0" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="51" curve="90"/>
+<wire x1="0.3175" y1="0" x2="0.381" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="5.9025" x2="0.3175" y2="6.22" width="0.127" layer="51" curve="-90"/>
+<wire x1="6.223" y1="0" x2="6.5" y2="0.277" width="0.127" layer="51" curve="90"/>
+<wire x1="6.5" y1="0.277" x2="6.5" y2="5.9025" width="0.127" layer="51"/>
+<wire x1="6.5" y1="5.9025" x2="6.1825" y2="6.22" width="0.127" layer="51" curve="90"/>
+<wire x1="6.1825" y1="6.22" x2="0.3175" y2="6.22" width="0.127" layer="51"/>
+<wire x1="0.381" y1="0" x2="1.651" y2="0" width="0.127" layer="51"/>
+<wire x1="1.651" y1="0" x2="4.953" y2="0" width="0.127" layer="51"/>
+<wire x1="4.953" y1="0" x2="6.223" y2="0" width="0.127" layer="51"/>
+<wire x1="5.9835" y1="1.9685" x2="5.9835" y2="6.2085" width="0.127" layer="51"/>
+<wire x1="5.9665" y1="1.9685" x2="0.5835" y2="1.9685" width="0.127" layer="51"/>
+<wire x1="5.9665" y1="6.2085" x2="0.5835" y2="6.2085" width="0.127" layer="51"/>
+<wire x1="0.5835" y1="6.2085" x2="0.5665" y2="6.2085" width="0.127" layer="51"/>
+<wire x1="0.5835" y1="1.9685" x2="0.5835" y2="6.2085" width="0.127" layer="51"/>
+<wire x1="0.381" y1="-3.81" x2="1.651" y2="-3.81" width="0.127" layer="51"/>
+<wire x1="1.651" y1="-3.81" x2="1.651" y2="0" width="0.127" layer="51"/>
+<wire x1="0.381" y1="-3.81" x2="0.381" y2="0" width="0.127" layer="51"/>
+<wire x1="4.953" y1="-3.81" x2="6.223" y2="-3.81" width="0.127" layer="51"/>
+<wire x1="6.223" y1="-3.81" x2="6.223" y2="0" width="0.127" layer="51"/>
+<wire x1="4.953" y1="-3.81" x2="4.953" y2="0" width="0.127" layer="51"/>
+<smd name="D1" x="3.302" y="4.572" dx="5.24" dy="5.4" layer="1" rot="R90"/>
+<smd name="D2" x="1.016" y="-2.54" dx="2.3" dy="1" layer="1" rot="R90"/>
+<smd name="D3" x="5.588" y="-2.54" dx="2.3" dy="1" layer="1" rot="R90"/>
+<rectangle x1="0.508" y1="-3.683" x2="1.524" y2="-1.397" layer="51"/>
+<rectangle x1="5.08" y1="-3.683" x2="6.096" y2="-1.397" layer="51"/>
+<rectangle x1="0.635" y1="2.032" x2="5.969" y2="7.112" layer="51"/>
+<polygon width="0.127" layer="39">
+<vertex x="0.381" y="-4.191"/>
+<vertex x="1.905" y="-4.191"/>
+<vertex x="1.905" y="-3.683"/>
+<vertex x="1.905" y="-0.254"/>
+<vertex x="2.54" y="-0.254"/>
+<vertex x="4.699" y="-0.254"/>
+<vertex x="4.699" y="-2.413"/>
+<vertex x="4.699" y="-4.191"/>
+<vertex x="6.477" y="-4.191"/>
+<vertex x="6.477" y="-0.254"/>
+<vertex x="6.731" y="-0.254"/>
+<vertex x="6.731" y="6.477"/>
+<vertex x="6.223" y="6.477"/>
+<vertex x="6.223" y="7.366"/>
+<vertex x="5.588" y="7.366"/>
+<vertex x="0.508" y="7.366"/>
+<vertex x="0.508" y="6.477"/>
+<vertex x="-0.254" y="6.477"/>
+<vertex x="-0.254" y="6.096"/>
+<vertex x="-0.254" y="-0.254"/>
+<vertex x="0.127" y="-0.254"/>
+<vertex x="0.127" y="-4.191"/>
+</polygon>
+<text x="8.89" y="8.89" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="8.89" y="-5.08" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
+</package>
 <package name="SOT-223" urn="urn:adsk.eagle:footprint:33898458/1">
 <description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
@@ -118,8 +290,148 @@
 <vertex x="-3.1496" y="-1.9304"/>
 </polygon>
 </package>
+<package name="TO-220" urn="urn:adsk.eagle:footprint:34735088/1">
+<description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;Nacht Elk. - TO-220 &lt;br&gt;
+&lt;a href= "https://toshiba.semicon-storage.com/content/dam/toshiba-ss-v2/master/en/semiconductor/design-development/package-detail/Pkg_pkgdim/TO-220_pkgdim.gif"&gt;Datasheet &lt;/a&gt;
+&lt;/p&gt;
+
+20.03.2022</description>
+<pad name="3" x="2.54" y="0" drill="1" shape="long" rot="R270"/>
+<pad name="2" x="0" y="0" drill="1" shape="long" rot="R270"/>
+<pad name="1" x="-2.54" y="0" drill="1" shape="long" rot="R270"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.159" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.159" x2="-4.08" y2="-2.159" width="0.127" layer="21" curve="90"/>
+<wire x1="-4.08" y1="-2.159" x2="4.08" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="4.08" y1="-2.159" x2="5.08" y2="-1.159" width="0.127" layer="21" curve="90"/>
+<wire x1="5.08" y1="-1.159" x2="5.08" y2="1.016" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.016" x2="5.08" y2="2.286" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.286" x2="-5.08" y2="2.286" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="2.286" x2="-5.08" y2="1.016" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.016" x2="3.556" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="1.016" x2="-5.08" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="1.016" x2="-3.556" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="1.651" x2="-1.651" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="1.651" x2="0.889" y2="1.651" width="0.127" layer="21"/>
+<wire x1="1.651" y1="1.651" x2="3.556" y2="1.651" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.651" x2="3.556" y2="1.016" width="0.127" layer="21"/>
+<wire x1="1.651" y1="1.651" x2="1.651" y2="1.016" width="0.127" layer="21"/>
+<wire x1="1.651" y1="1.016" x2="0.889" y2="1.016" width="0.127" layer="21"/>
+<wire x1="0.889" y1="1.016" x2="0.889" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="1.651" x2="-0.889" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="1.016" x2="-1.651" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="1.016" x2="-1.651" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.159" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="-1.159" x2="-4.08" y2="-2.159" width="0.127" layer="51" curve="90"/>
+<wire x1="-4.08" y1="-2.159" x2="4.08" y2="-2.159" width="0.127" layer="51"/>
+<wire x1="4.08" y1="-2.159" x2="5.08" y2="-1.159" width="0.127" layer="51" curve="90"/>
+<wire x1="5.08" y1="-1.159" x2="5.08" y2="1.016" width="0.127" layer="51"/>
+<wire x1="5.08" y1="1.016" x2="5.08" y2="2.286" width="0.127" layer="51"/>
+<wire x1="5.08" y1="2.286" x2="-5.08" y2="2.286" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="2.286" x2="-5.08" y2="1.016" width="0.127" layer="51"/>
+<wire x1="5.08" y1="1.016" x2="3.556" y2="1.016" width="0.127" layer="51"/>
+<wire x1="-3.556" y1="1.016" x2="-5.08" y2="1.016" width="0.127" layer="51"/>
+<wire x1="-3.556" y1="1.016" x2="-3.556" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-3.556" y1="1.651" x2="-1.651" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-0.889" y1="1.651" x2="0.889" y2="1.651" width="0.127" layer="51"/>
+<wire x1="1.651" y1="1.651" x2="3.556" y2="1.651" width="0.127" layer="51"/>
+<wire x1="3.556" y1="1.651" x2="3.556" y2="1.016" width="0.127" layer="51"/>
+<wire x1="1.651" y1="1.651" x2="1.651" y2="1.016" width="0.127" layer="51"/>
+<wire x1="1.651" y1="1.016" x2="0.889" y2="1.016" width="0.127" layer="51"/>
+<wire x1="0.889" y1="1.016" x2="0.889" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-0.889" y1="1.651" x2="-0.889" y2="1.016" width="0.127" layer="51"/>
+<wire x1="-0.889" y1="1.016" x2="-1.651" y2="1.016" width="0.127" layer="51"/>
+<wire x1="-1.651" y1="1.016" x2="-1.651" y2="1.651" width="0.127" layer="51"/>
+<polygon width="0.127" layer="21">
+<vertex x="5.08" y="1.016"/>
+<vertex x="3.556" y="1.016"/>
+<vertex x="3.556" y="1.651"/>
+<vertex x="1.651" y="1.651"/>
+<vertex x="1.651" y="1.016"/>
+<vertex x="0.889" y="1.016"/>
+<vertex x="0.889" y="1.651"/>
+<vertex x="-0.889" y="1.651"/>
+<vertex x="-0.889" y="1.016"/>
+<vertex x="-1.651" y="1.016"/>
+<vertex x="-1.651" y="1.651"/>
+<vertex x="-3.556" y="1.651"/>
+<vertex x="-3.556" y="1.016"/>
+<vertex x="-5.08" y="1.016"/>
+<vertex x="-5.08" y="2.286"/>
+<vertex x="5.08" y="2.286"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="5.08" y="1.016"/>
+<vertex x="3.556" y="1.016"/>
+<vertex x="3.556" y="1.651"/>
+<vertex x="1.651" y="1.651"/>
+<vertex x="1.651" y="1.016"/>
+<vertex x="0.889" y="1.016"/>
+<vertex x="0.889" y="1.651"/>
+<vertex x="-0.889" y="1.651"/>
+<vertex x="-0.889" y="1.016"/>
+<vertex x="-1.651" y="1.016"/>
+<vertex x="-1.651" y="1.651"/>
+<vertex x="-3.556" y="1.651"/>
+<vertex x="-3.556" y="1.016"/>
+<vertex x="-5.08" y="1.016"/>
+<vertex x="-5.08" y="2.286"/>
+<vertex x="5.08" y="2.286"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="-5.334" y="2.54"/>
+<vertex x="-5.334" y="-1.413" curve="90"/>
+<vertex x="-4.334" y="-2.413"/>
+<vertex x="4.334" y="-2.413" curve="90"/>
+<vertex x="5.334" y="-1.413"/>
+<vertex x="5.334" y="2.54"/>
+</polygon>
+<text x="0" y="3.048" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="-2.921" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
+</package>
 </packages>
 <packages3d>
+<package3d name="DPAK-BACKUP" urn="urn:adsk.eagle:package:34735181/1" type="box">
+<description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;Nacht Elk. - DPAK &lt;br&gt;
+&lt;a href= "https://www.infineon.com/export/sites/default/en/product/packages/_images/09018a908069e1d5.png_1305785904.png"&gt;Datasheet &lt;/a&gt;
+&lt;/p&gt;
+
+20.03.2022</description>
+<packageinstances>
+<packageinstance name="DPAK-BACKUP"/>
+</packageinstances>
+</package3d>
+<package3d name="DPAK" urn="urn:adsk.eagle:package:34735090/4" type="model">
+<description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;Nacht Elk. - DPAK &lt;br&gt;
+&lt;a href= "https://www.infineon.com/export/sites/default/en/product/packages/_images/09018a908069e1d5.png_1305785904.png"&gt;Datasheet &lt;/a&gt;
+&lt;/p&gt;
+
+20.03.2022</description>
+<packageinstances>
+<packageinstance name="DPAK"/>
+</packageinstances>
+</package3d>
+<package3d name="TO-220" urn="urn:adsk.eagle:package:34735091/2" type="model">
+<description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;Nacht Elk. - TO-220 &lt;br&gt;
+&lt;a href= "https://toshiba.semicon-storage.com/content/dam/toshiba-ss-v2/master/en/semiconductor/design-development/package-detail/Pkg_pkgdim/TO-220_pkgdim.gif"&gt;Datasheet &lt;/a&gt;
+&lt;/p&gt;
+
+20.03.2022</description>
+<packageinstances>
+<packageinstance name="TO-220"/>
+</packageinstances>
+</package3d>
 <package3d name="SOT-223" urn="urn:adsk.eagle:package:33898460/2" type="model">
 <description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
@@ -135,6 +447,21 @@
 </package3d>
 </packages3d>
 <symbols>
+<symbol name="LMXX" urn="urn:adsk.eagle:symbol:34735089/1">
+<pin name="VIN" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="VOUT" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="0" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94" curve="-90"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-7.62" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="-2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="7.62" y2="-10.16" width="0.254" layer="94" curve="-90"/>
+<text x="-10.16" y="5.08" size="1.778" layer="95" font="vector" align="center">&gt;Name</text>
+<text x="-10.16" y="-15.24" size="1.778" layer="95" font="vector" align="center">&gt;Value</text>
+</symbol>
 <symbol name="AMS1117" urn="urn:adsk.eagle:symbol:33898459/1">
 <description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
@@ -160,7 +487,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_LİNEAR-REG_AMS1117" prefix="IC" uservalue="yes" urn="urn:adsk.eagle:component:33898461/2">
+<deviceset name="NACHTELK_LINEAR-REG_AMS1117" prefix="IC" uservalue="yes" urn="urn:adsk.eagle:component:33898461/3">
 <description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 
@@ -253,6 +580,214 @@ Mount Type: &lt;strong&gt;SMD &lt;/strong&gt;&lt;br&gt;
 <attribute name="PACKAGE" value="SOT-223" constant="no"/>
 <attribute name="TEMPERATURE" value="-40 °C up to +125°C " constant="no"/>
 <attribute name="VALUE" value="AMS1117 - ADJ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NACHTELK_LINEAR-REG_78XX" prefix="IC" uservalue="yes" urn="urn:adsk.eagle:component:34735092/3">
+<description>&lt;h2&gt;Nacht Elk. - Linear Voltage Regulators &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;Nacht Elk. -  Linear Voltage Regulators -78xx &lt;br&gt;
+Output Voltage Range: &lt;strong&gt;5V - 24V&lt;/strong&gt;&lt;br&gt;
+Max Output Current: &lt;strong&gt; 1.5A&lt;/strong&gt;&lt;br&gt;
+Max. Input Voltage: &lt;strong&gt;35V &lt;/strong&gt; &lt;br&gt;
+Operating temperature: &lt;strong&gt; 0 °C up to +125°C &lt;/strong&gt;&lt;br&gt;
+Package: &lt;strong&gt;DPAK - TO-220 &lt;/strong&gt;&lt;br&gt;
+Mount Type: &lt;strong&gt;SMD - DIP &lt;/strong&gt;&lt;br&gt;
+&lt;a href="https://pdf.direnc.net/upload/l78-974043.pdf"&gt;Datasheet &lt;/a&gt;
+
+&lt;/p&gt;
+
+20.03.2022</description>
+<gates>
+<gate name="G$1" symbol="LMXX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_TO-220" package="TO-220">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34735091/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_12V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">13V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="12V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7812" constant="no"/>
+</technology>
+<technology name="_15V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">17V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="15V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7815" constant="no"/>
+</technology>
+<technology name="_18V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">20V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="18V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7818" constant="no"/>
+</technology>
+<technology name="_24V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">26V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="24V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7824" constant="no"/>
+</technology>
+<technology name="_5V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">7V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="5V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7805" constant="no"/>
+</technology>
+<technology name="_6V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">8V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="6V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7806" constant="no"/>
+</technology>
+<technology name="_8.5V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">10.5V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="8.5V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7808" constant="no"/>
+</technology>
+<technology name="_8V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">10V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="8V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7808" constant="no"/>
+</technology>
+<technology name="_9V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">11V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
+<attribute name="OUTPUT" value="9V" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7809" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DPAK" package="DPAK">
+<connects>
+<connect gate="G$1" pin="GND" pad="D1"/>
+<connect gate="G$1" pin="VIN" pad="D2"/>
+<connect gate="G$1" pin="VOUT" pad="D3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34735090/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_12V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">14V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="12V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7812" constant="no"/>
+</technology>
+<technology name="_15V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">17V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="15V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7815" constant="no"/>
+</technology>
+<technology name="_18V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">20V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="18V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7818" constant="no"/>
+</technology>
+<technology name="_24V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">26V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="24V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7824" constant="no"/>
+</technology>
+<technology name="_5V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">7V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="5V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7805" constant="no"/>
+</technology>
+<technology name="_6V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">8V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="6V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7806" constant="no"/>
+</technology>
+<technology name="_8.5V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">10.5V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="8.5V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7808" constant="no"/>
+</technology>
+<technology name="_8V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">10V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="8V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7808" constant="no"/>
+</technology>
+<technology name="_9V">
+<attribute name="AMP" value="1.5" constant="no"/>
+<attribute name="INPUT" value=">11V" constant="no"/>
+<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
+<attribute name="OUTPUT" value="9V" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="TEMPERATURE" value="0 °C up to +125°C" constant="no"/>
+<attribute name="VALUE" value="7809" constant="no"/>
 </technology>
 </technologies>
 </device>

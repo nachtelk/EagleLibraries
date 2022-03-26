@@ -5,7 +5,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -71,13 +71,13 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;h2&gt;Nacht Elk. - UART CH340G &lt;/h2&gt;
+<description>&lt;h2&gt;Nacht Elk. - UART Devices &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 
 20.01.2022</description>
 <packages>
-<package name="SOIC-16" urn="urn:adsk.eagle:footprint:33665311/4">
-<description>&lt;H2&gt; Nacht Elk. - Uart CH340G&lt;/H2&gt;
+<package name="SOIC-16" urn="urn:adsk.eagle:footprint:33665311/5">
+<description>&lt;H2&gt; Nacht Elk. - Uart Devices &lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
 &lt;p&gt; Package: &lt;strong&gt;SOIC-16&lt;/strong&gt;
@@ -133,8 +133,8 @@ Dimensions(LxWxH): &lt;strong&gt;10x3.8x1.75 mm&lt;/strong&gt;&lt;/P&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="SOIC-16" urn="urn:adsk.eagle:package:33665313/5" type="model">
-<description>&lt;H2&gt; Nacht Elk. - Uart CH340G&lt;/H2&gt;
+<package3d name="SOIC-16" urn="urn:adsk.eagle:package:33665313/6" type="model">
+<description>&lt;H2&gt; Nacht Elk. - Uart Devices &lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
 &lt;p&gt; Package: &lt;strong&gt;SOIC-16&lt;/strong&gt;
@@ -147,10 +147,10 @@ Dimensions(LxWxH): &lt;strong&gt;10x3.8x1.75 mm&lt;/strong&gt;&lt;/P&gt;
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="CH340G" urn="urn:adsk.eagle:symbol:33665312/2">
-<description>&lt;h2&gt;Nacht Elk. - UART CH340G &lt;/h2&gt;
+<symbol name="CH340G" urn="urn:adsk.eagle:symbol:33665312/4">
+<description>&lt;h2&gt;Nacht Elk. - UART Devices &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt; UART CH340G&lt;/p&gt;
+&lt;p&gt;Nacht Elk. - UART CH340G&lt;/p&gt;
 20.01.2022</description>
 <pin name="GND" x="-12.446" y="7.62" length="middle" direction="pwr"/>
 <pin name="TX" x="-12.446" y="5.08" length="middle"/>
@@ -176,11 +176,13 @@ Dimensions(LxWxH): &lt;strong&gt;10x3.8x1.75 mm&lt;/strong&gt;&lt;/P&gt;
 <wire x1="7.874" y1="7.62" x2="5.334" y2="10.16" width="0.254" layer="94" curve="90"/>
 <wire x1="5.334" y1="10.16" x2="-4.826" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-4.826" y1="10.16" x2="-7.366" y2="7.62" width="0.254" layer="94" curve="90"/>
+<text x="-10.16" y="12.7" size="2.54" layer="95" font="vector" align="center">&gt;Name</text>
+<text x="-10.16" y="-15.24" size="2.54" layer="96" font="vector" align="center">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_UART_CH340" prefix="U" uservalue="yes" urn="urn:adsk.eagle:component:33665314/6">
-<description>&lt;h2&gt;Nacht Elk. - UART CH340G &lt;/h2&gt;
+<deviceset name="NACHTELK_UART_CH340" prefix="U" uservalue="yes" urn="urn:adsk.eagle:component:33665314/8">
+<description>&lt;h2&gt;Nacht Elk. - UART Devices &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - UART CH340G &lt;br&gt;
 Company: &lt;strong&gt;WCH &lt;/strong&gt; &lt;br&gt;
@@ -219,7 +221,7 @@ Package: &lt;strong&gt;SOIC-16 &lt;/strong&gt;&lt;br&gt;
 <connect gate="G$1" pin="XO" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33665313/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33665313/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
