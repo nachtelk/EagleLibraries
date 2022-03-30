@@ -38,6 +38,6 @@ Choose library you want to install and double click .lbr file.
 
 Mail - [nachtelk@hotmail.com](nachtelk@hotmail.com)
 
-Linkedin - [Ekrem Turan Fırat](https://www.linkedin.com/in/nachtelk/)
+Linkedin - [Ekrem Turan Fırat](https://www.linkedin.com/in/ekremturanfirat/)
 
 Instagram - [Nacht Elk.](https://www.instagram.com/nachtelk/)
