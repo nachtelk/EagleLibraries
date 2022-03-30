@@ -34,10 +34,10 @@ Choose library you want to install and double click .lbr file.
 </p>
 
 # Contact
-
+Web Site - [Nacht Elk.](https://nachtelk.xyz)
 
 Mail - [nachtelk@hotmail.com](nachtelk@hotmail.com)
 
-Linkedin - [Ekrem Turan Fırat](https://www.linkedin.com/in/ekremturanfirat/)
+Linkedin - [Nacht Elk.](https://www.linkedin.com/company/nachtelk)
 
 Instagram - [Nacht Elk.](https://www.instagram.com/nachtelk/)
