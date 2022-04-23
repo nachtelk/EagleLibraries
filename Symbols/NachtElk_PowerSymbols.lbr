@@ -80,31 +80,18 @@
 <packages3d>
 </packages3d>
 <symbols>
-<symbol name="GND3" urn="urn:adsk.eagle:symbol:33679566/3">
-<description>&lt;H2&gt; Nacht Elk. - Power Symbol - GND&lt;/H2&gt;
-&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Power Symbol - GND-3   
-&lt;/p&gt;
-
-21.01.2022</description>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-1.016" x2="-1.524" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-2.032" x2="0.508" y2="-2.032" width="0.254" layer="94"/>
-<pin name="GND3" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-3.048" size="1.4224" layer="96" font="vector" align="center">&gt;Value</text>
-</symbol>
-<symbol name="VCC2" urn="urn:adsk.eagle:symbol:33679563/3">
+<symbol name="5V" urn="urn:adsk.eagle:symbol:33679563/4">
 <description>&lt;H2&gt; Nacht Elk. - Power Symbol - VCC&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Power Symbol - VCC-2   
+&lt;p&gt;Nacht Elk. - Power Symbol - 5V   
 &lt;/p&gt;
 
 21.01.2022</description>
-<pin name="VCC2" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <circle x="0" y="1.016" radius="1.016" width="0.254" layer="94"/>
 <text x="0" y="3.302" size="1.4224" layer="96" font="vector" align="center">&gt;Value</text>
 </symbol>
-<symbol name="GND2" urn="urn:adsk.eagle:symbol:33679567/4">
+<symbol name="EARTH_GND" urn="urn:adsk.eagle:symbol:33679567/5">
 <description>&lt;H2&gt; Nacht Elk. - Power Symbol - GND&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Power Symbol - GND-2   
@@ -116,22 +103,10 @@
 <wire x1="1.524" y1="-1.016" x2="-1.524" y2="-1.016" width="0.254" layer="94"/>
 <wire x1="-1.016" y1="-1.524" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="0.508" y1="-2.032" x2="-0.508" y2="-2.032" width="0.254" layer="94"/>
-<pin name="GND2" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="EARTH" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="0" y="-3.048" size="1.4224" layer="96" font="vector" align="center">&gt;Value</text>
 </symbol>
-<symbol name="VCC1" urn="urn:adsk.eagle:symbol:33679564/3">
-<description>&lt;H2&gt; Nacht Elk. - Power Symbol - VCC&lt;/H2&gt;
-&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Power Symbol - VCC-1   
-&lt;/p&gt;
-
-21.01.2022</description>
-<wire x1="0" y1="0" x2="-1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
-<pin name="VCC1" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="1.016" size="1.4224" layer="96" font="vector" align="center">&gt;Value</text>
-</symbol>
-<symbol name="GND1" urn="urn:adsk.eagle:symbol:33679568/4">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:33679568/5">
 <description>&lt;H2&gt; Nacht Elk. - Power Symbol - GND&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Power Symbol - GND-1   
@@ -139,10 +114,22 @@
 
 21.01.2022</description>
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<pin name="GND1" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="0" y="-1.016" size="1.4224" layer="96" font="vector" align="center">&gt;Value</text>
 </symbol>
-<symbol name="GND4" urn="urn:adsk.eagle:symbol:33679565/3">
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:33679564/4">
+<description>&lt;H2&gt; Nacht Elk. - Power Symbol - VCC&lt;/H2&gt;
+&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt;Nacht Elk. - Power Symbol - VCC-1  
+&lt;/p&gt;
+
+21.01.2022</description>
+<wire x1="0" y1="0" x2="-1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="1.016" size="1.4224" layer="96" font="vector" align="center">&gt;Value</text>
+</symbol>
+<symbol name="SIGNAL_GND" urn="urn:adsk.eagle:symbol:33679565/4">
 <description>&lt;H2&gt; Nacht Elk. - Power Symbol - GND&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Power Symbol - GND-4   
@@ -152,74 +139,66 @@
 <wire x1="-1.016" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
 <wire x1="1.016" y1="0" x2="0" y2="-1.016" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.016" x2="-1.016" y2="0" width="0.254" layer="94"/>
-<pin name="GND4" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="GND_SIGNAL" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="0" y="-2.032" size="1.4224" layer="96" font="vector" align="center">&gt;Value</text>
+</symbol>
+<symbol name="EARTH_GND2" urn="urn:adsk.eagle:symbol:33679566/4">
+<description>&lt;H2&gt; Nacht Elk. - Power Symbol - GND&lt;/H2&gt;
+&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt;Nacht Elk. - Power Symbol - GND-3   
+&lt;/p&gt;
+
+21.01.2022</description>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-1.016" x2="-1.524" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-2.032" x2="0.508" y2="-2.032" width="0.254" layer="94"/>
+<pin name="EARTH" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-3.048" size="1.4224" layer="96" font="vector" align="center">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_POWER-SYMBOL_VCC2" prefix="VCC" uservalue="yes" urn="urn:adsk.eagle:component:33679569/3">
+<deviceset name="NACHTELK_POWER-SYMBOL_EARTH_GND" prefix="GND" uservalue="yes" urn="urn:adsk.eagle:component:33679573/5">
+<description>&lt;H2&gt; Nacht Elk. - Power Symbol -  GND&lt;/H2&gt;
+&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt;Nacht Elk. - Power Symbol - Earthh GND
+&lt;/p&gt;
+
+21.01.2022</description>
+<gates>
+<gate name="G$1" symbol="EARTH_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="EARTH GND"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NACHTELK_POWER-SYMBOL_5V" prefix="VCC" uservalue="yes" urn="urn:adsk.eagle:component:33679569/4">
 <description>&lt;H2&gt; Nacht Elk. - Power Symbol - VCC&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Power Symbol - VCC-2
+&lt;p&gt;Nacht Elk. - Power Symbol - 5V
 &lt;/p&gt;
 21.01.2022</description>
 <gates>
-<gate name="G$1" symbol="VCC2" x="0" y="0"/>
+<gate name="G$1" symbol="5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="VCC" constant="no"/>
+<attribute name="VALUE" value="5V"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NACHTELK_POWER-SYMBOL_GND2" prefix="GND" uservalue="yes" urn="urn:adsk.eagle:component:33679573/4">
-<description>&lt;H2&gt; Nacht Elk. - Power Symbol -  GND&lt;/H2&gt;
-&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Power Symbol -  GND-2   
-&lt;/p&gt;
-
-21.01.2022</description>
-<gates>
-<gate name="G$1" symbol="GND2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="GND" constant="no"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NACHTELK_POWER-SYMBOL_GND3" prefix="GND" uservalue="yes" urn="urn:adsk.eagle:component:33679572/3">
-<description>&lt;H2&gt; Nacht Elk. - Power Symbol -  GND&lt;/H2&gt;
-&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Power Symbol -  GND-3   
-&lt;/p&gt;
-
-21.01.2022</description>
-<gates>
-<gate name="G$1" symbol="GND3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="GND" constant="no"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NACHTELK_POWER-SYMBOL_VCC1" prefix="VCC" uservalue="yes" urn="urn:adsk.eagle:component:33679570/3">
+<deviceset name="NACHTELK_POWER-SYMBOL_VCC1" prefix="VCC" uservalue="yes" urn="urn:adsk.eagle:component:33679570/4">
 <description>&lt;H2&gt; Nacht Elk. - Power Symbol -  VCC&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Power Symbol -  VCC-1   
@@ -227,20 +206,20 @@
 
 21.01.2022</description>
 <gates>
-<gate name="G$1" symbol="VCC1" x="0" y="0"/>
+<gate name="G$1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="VCC" constant="no"/>
+<attribute name="VALUE" value="VCC"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NACHTELK_POWER-SYMBOL_GND1" prefix="GND" uservalue="yes" urn="urn:adsk.eagle:component:33679574/5">
+<deviceset name="NACHTELK_POWER-SYMBOL_GND" prefix="GND" uservalue="yes" urn="urn:adsk.eagle:component:33679574/6">
 <description>&lt;H2&gt; Nacht Elk. - Powe Symbol - GND&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Power Symbol -  GND-1   
@@ -248,34 +227,55 @@
 
 21.01.2022</description>
 <gates>
-<gate name="G$1" symbol="GND1" x="0" y="0"/>
+<gate name="G$1" symbol="GND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="GND" constant="no"/>
+<attribute name="VALUE" value="GND"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NACHTELK_POWER-SYMBOL_GND4" prefix="GND" uservalue="yes" urn="urn:adsk.eagle:component:33679571/3">
+<deviceset name="NACHTELK_POWER-SYMBOL_EARTH_GND2" prefix="GND" uservalue="yes" urn="urn:adsk.eagle:component:33679572/4">
 <description>&lt;H2&gt; Nacht Elk. - Power Symbol -  GND&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Power Symbol -  GND-4   
+&lt;p&gt;Nacht Elk. - Power Symbol -  Earth GND 2  
 &lt;/p&gt;
 
 21.01.2022</description>
 <gates>
-<gate name="G$1" symbol="GND4" x="0" y="0"/>
+<gate name="G$1" symbol="EARTH_GND2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="GND" constant="no"/>
+<attribute name="VALUE" value="EARTH GND"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NACHTELK_POWER-SYMBOL_SIGNAL_GND" prefix="GND" uservalue="yes" urn="urn:adsk.eagle:component:33679571/4">
+<description>&lt;H2&gt; Nacht Elk. - Power Symbol -  GND&lt;/H2&gt;
+&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt;Nacht Elk. - Power Symbol - Signal GND
+&lt;/p&gt;
+
+21.01.2022</description>
+<gates>
+<gate name="G$1" symbol="SIGNAL_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="SIGNAL GND" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>

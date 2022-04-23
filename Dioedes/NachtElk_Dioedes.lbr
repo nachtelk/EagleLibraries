@@ -5,7 +5,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -77,7 +77,7 @@
 
 11.02.2022</description>
 <packages>
-<package name="DO-41" urn="urn:adsk.eagle:footprint:34028988/1">
+<package name="DO-41" urn="urn:adsk.eagle:footprint:34028988/2">
 <description>&lt;h2&gt;Nacht Elk. - Diodes &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt; DO-41&lt;p&gt;
@@ -110,20 +110,87 @@
 <wire x1="-2.325" y1="0" x2="-3.25" y2="0" width="0.127" layer="21"/>
 <rectangle x1="1.75" y1="-1.175" x2="2" y2="1.175" layer="21" rot="R180"/>
 <rectangle x1="1.75" y1="-1.175" x2="2" y2="1.175" layer="51" rot="R180"/>
-<polygon width="0.127" layer="39">
-<vertex x="-5.334" y="-1.524"/>
-<vertex x="5.334" y="-1.524"/>
-<vertex x="5.334" y="1.397"/>
-<vertex x="-5.334" y="1.397"/>
-</polygon>
 <text x="0" y="2.159" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
 <text x="0" y="-2.286" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
 <circle x="5.715" y="1.778" radius="0.127" width="0.254" layer="21"/>
 <circle x="5.715" y="1.778" radius="0.127" width="0.254" layer="51"/>
+<polygon width="0.127" layer="39">
+<vertex x="-2.286" y="-0.889"/>
+<vertex x="-2.286" y="0.889" curve="-90"/>
+<vertex x="-2.032" y="1.143"/>
+<vertex x="2.032" y="1.143" curve="-90"/>
+<vertex x="2.286" y="0.889"/>
+<vertex x="2.286" y="0.127"/>
+<vertex x="2.286" y="-0.889" curve="-90"/>
+<vertex x="2.032" y="-1.143"/>
+<vertex x="-2.032" y="-1.143" curve="-90"/>
+</polygon>
+</package>
+<package name="DO-27" urn="urn:adsk.eagle:footprint:35090255/3">
+<description>&lt;h2&gt;Nacht Elk. - Diodes &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt; DO-27&lt;p&gt;
+03.04.2022</description>
+<pad name="C" x="6.611" y="0" drill="1" shape="square" rot="R180"/>
+<pad name="A" x="-6.865" y="0" drill="1" rot="R180"/>
+<wire x1="4.611" y1="0" x2="4.611" y2="-2.699" width="0.127" layer="21"/>
+<wire x1="4.611" y1="-2.699" x2="4.357" y2="-2.953" width="0.127" layer="21" curve="-90"/>
+<wire x1="4.357" y1="-2.953" x2="-4.611" y2="-2.953" width="0.127" layer="21"/>
+<wire x1="-4.611" y1="-2.953" x2="-4.865" y2="-2.699" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4.865" y1="-2.699" x2="-4.865" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.865" y1="0" x2="-4.865" y2="2.699" width="0.127" layer="21"/>
+<wire x1="-4.865" y1="2.699" x2="-4.611" y2="2.953" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4.611" y1="2.953" x2="4.357" y2="2.953" width="0.127" layer="21"/>
+<wire x1="4.357" y1="2.953" x2="4.611" y2="2.699" width="0.127" layer="21" curve="-90"/>
+<wire x1="4.611" y1="2.699" x2="4.611" y2="0" width="0.127" layer="21"/>
+<wire x1="4.611" y1="0" x2="4.611" y2="-2.699" width="0.127" layer="51"/>
+<wire x1="4.611" y1="-2.699" x2="4.357" y2="-2.953" width="0.127" layer="51" curve="-90"/>
+<wire x1="4.357" y1="-2.953" x2="-4.611" y2="-2.953" width="0.127" layer="51"/>
+<wire x1="-4.611" y1="-2.953" x2="-4.865" y2="-2.699" width="0.127" layer="51" curve="-90"/>
+<wire x1="-4.865" y1="-2.699" x2="-4.865" y2="0" width="0.127" layer="51"/>
+<wire x1="-4.865" y1="0" x2="-4.865" y2="2.699" width="0.127" layer="51"/>
+<wire x1="-4.865" y1="2.699" x2="-4.611" y2="2.953" width="0.127" layer="51" curve="-90"/>
+<wire x1="-4.611" y1="2.953" x2="4.357" y2="2.953" width="0.127" layer="51"/>
+<wire x1="4.357" y1="2.953" x2="4.611" y2="2.699" width="0.127" layer="51" curve="-90"/>
+<wire x1="4.611" y1="2.699" x2="4.611" y2="0" width="0.127" layer="51"/>
+<wire x1="4.611" y1="0" x2="6.611" y2="0" width="0.127" layer="51"/>
+<wire x1="-4.865" y1="0" x2="-6.865" y2="0" width="0.127" layer="51"/>
+<wire x1="5.536" y1="0" x2="4.611" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.865" y1="0" x2="-5.79" y2="0" width="0.127" layer="21"/>
+<rectangle x1="3.528" y1="-1.175" x2="3.778" y2="1.175" layer="21" rot="R180"/>
+<rectangle x1="3.528" y1="-1.175" x2="3.778" y2="1.175" layer="51" rot="R180"/>
+<rectangle x1="3.528" y1="0.095" x2="3.778" y2="2.445" layer="51" rot="R180"/>
+<rectangle x1="3.528" y1="0.603" x2="3.778" y2="2.953" layer="51" rot="R180"/>
+<rectangle x1="3.528" y1="-2.953" x2="3.778" y2="-0.603" layer="51" rot="R180"/>
+<rectangle x1="3.528" y1="-2.953" x2="3.778" y2="-0.603" layer="21" rot="R180"/>
+<rectangle x1="3.528" y1="0.603" x2="3.778" y2="2.953" layer="21" rot="R180"/>
+<text x="0" y="3.937" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="-3.937" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
+<circle x="7.747" y="1.778" radius="0.127" width="0.254" layer="21"/>
+<circle x="7.747" y="1.778" radius="0.127" width="0.254" layer="51"/>
+<polygon width="0.127" layer="39">
+<vertex x="4.318" y="2.921"/>
+<vertex x="-4.572" y="2.921" curve="90"/>
+<vertex x="-4.826" y="2.667"/>
+<vertex x="-4.826" y="-2.667" curve="90"/>
+<vertex x="-4.572" y="-2.921"/>
+<vertex x="4.318" y="-2.921" curve="90"/>
+<vertex x="4.572" y="-2.667"/>
+<vertex x="4.572" y="2.667" curve="90"/>
+</polygon>
 </package>
 </packages>
 <packages3d>
-<package3d name="DO-41" urn="urn:adsk.eagle:package:34028990/2" type="model">
+<package3d name="DO-27" urn="urn:adsk.eagle:package:35090256/5" type="model">
+<description>&lt;h2&gt;Nacht Elk. - Diodes &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt; DO-27&lt;p&gt;
+03.04.2022</description>
+<packageinstances>
+<packageinstance name="DO-27"/>
+</packageinstances>
+</package3d>
+<package3d name="DO-41" urn="urn:adsk.eagle:package:34028990/3" type="model">
 <description>&lt;h2&gt;Nacht Elk. - Diodes &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt; DO-41&lt;p&gt;
@@ -134,15 +201,15 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="DIODE" urn="urn:adsk.eagle:symbol:34028989/1">
+<symbol name="DIODE" urn="urn:adsk.eagle:symbol:34028989/2">
 <description>&lt;h2&gt;Nacht Elk. - Diodes &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 
 11.02.2022</description>
 <pin name="ANOT" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="KATOT" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="1.016" x2="0.762" y2="0" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0" x2="-0.762" y2="-1.016" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="1.016" width="0.254" layer="94"/>
@@ -153,14 +220,14 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_DIODE_1N4004" prefix="D" uservalue="yes" urn="urn:adsk.eagle:component:34028991/2">
+<deviceset name="NACHTELK_DIODE_1N4004" prefix="D" uservalue="yes" urn="urn:adsk.eagle:component:34028991/8">
 <description>&lt;h2&gt;Nacht Elk. - Diodes &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 
 &lt;p&gt;Nacht Elk. - 1N4004 &lt;br&gt;
 Max. Current: &lt;strong&gt; 1A&lt;/strong&gt;&lt;br&gt;
 Max.  Voltage: &lt;strong&gt;400V &lt;/strong&gt; &lt;br&gt;
-Operating temperature: &lt;strong&gt; -55 °C up to +150°C &lt;/strong&gt;&lt;br&gt;
+Operating temperature: &lt;strong&gt; -65 °C up to +175°C &lt;/strong&gt;&lt;br&gt;
 Package: &lt;strong&gt;DO-41 - DO-241 &lt;/strong&gt;&lt;br&gt;
 Mount Type: &lt;strong&gt;DIP - SMD&lt;/strong&gt;&lt;br&gt;
 
@@ -178,15 +245,60 @@ Mount Type: &lt;strong&gt;DIP - SMD&lt;/strong&gt;&lt;br&gt;
 <connect gate="G$1" pin="KATOT" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34028990/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34028990/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CURRENT" value="1A" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="DO-41" constant="no"/>
-<attribute name="TEMPERATURE" value=" -55 °C up to +150°C" constant="no"/>
-<attribute name="VOLTAGE" value="1A" constant="no"/>
+<attribute name="AMP" value="1A"/>
+<attribute name="DIGI-KEY_NUMBER" value="1N4004GDICT-ND"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="DO-41"/>
+<attribute name="PART-NUMBER" value="1N4004G-T"/>
+<attribute name="TEMPERATURE" value=" -65 °C up to +175°C"/>
+<attribute name="VALUE" value="1N4004" constant="no"/>
+<attribute name="VOLTAGE" value="400V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NACHTELK_DIODE_6A10" prefix="D" uservalue="yes" urn="urn:adsk.eagle:component:35090257/8">
+<description>&lt;h2&gt;Nacht Elk. - Diodes &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;Nacht Elk. - 6A10 &lt;br&gt;
+Max. Current: &lt;strong&gt; 6A&lt;/strong&gt;&lt;br&gt;
+Max.  Voltage: &lt;strong&gt;1000V &lt;/strong&gt; &lt;br&gt;
+Operating temperature: &lt;strong&gt; -55 °C up to +150°C &lt;/strong&gt;&lt;br&gt;
+Package: &lt;strong&gt;DO-27(DO-201) &lt;/strong&gt;&lt;br&gt;
+Mount Type: &lt;strong&gt;DIP - SMD&lt;/strong&gt;&lt;br&gt;
+
+
+&lt;/p&gt;
+
+03.04.2022</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DO-27" package="DO-27">
+<connects>
+<connect gate="G$1" pin="ANOT" pad="A"/>
+<connect gate="G$1" pin="KATOT" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35090256/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AMP" value="6A"/>
+<attribute name="DIGI-KEY_NUMBER" value="3372-6A10-T/BTB-ND"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="DO-27(DO-201)"/>
+<attribute name="PART-NUUMBER" value="6A10-T/B"/>
+<attribute name="TEMPERATURE" value=" -55 °C up to +150°C"/>
+<attribute name="VALUE" value="6A10" constant="no"/>
+<attribute name="VOLTAGE" value="1000V"/>
 </technology>
 </technologies>
 </device>

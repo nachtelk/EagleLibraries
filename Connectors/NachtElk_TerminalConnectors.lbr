@@ -5,7 +5,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -76,7 +76,7 @@
 
 03.02.2022</description>
 <packages>
-<package name="1X2" urn="urn:adsk.eagle:footprint:33856968/1">
+<package name="1X2" urn="urn:adsk.eagle:footprint:33856968/2">
 <description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
@@ -118,9 +118,9 @@
 <vertex x="5.5" y="3.25"/>
 </polygon>
 <text x="0" y="5.25" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
-<text x="0" y="-5" size="1.27" layer="25" font="vector" align="center">&gt;Value</text>
+<text x="0" y="-5" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
 </package>
-<package name="1X4" urn="urn:adsk.eagle:footprint:34931200/2">
+<package name="1X4" urn="urn:adsk.eagle:footprint:34931200/3">
 <description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
@@ -160,9 +160,9 @@
 <vertex x="10.58" y="4.5"/>
 </polygon>
 <text x="0" y="5.25" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
-<text x="0" y="-5" size="1.27" layer="25" font="vector" align="center">&gt;Value</text>
+<text x="0" y="-5" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
 </package>
-<package name="1X3" urn="urn:adsk.eagle:footprint:34931201/2">
+<package name="1X3" urn="urn:adsk.eagle:footprint:34931201/3">
 <description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
@@ -201,33 +201,11 @@
 <vertex x="8.04" y="4.5"/>
 </polygon>
 <text x="0" y="5.25" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
-<text x="0" y="-5" size="1.27" layer="25" font="vector" align="center">&gt;Value</text>
+<text x="0" y="-5" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="1X3" urn="urn:adsk.eagle:package:34931205/3" type="model">
-<description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
-&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-
-&lt;p&gt;1x3 Terminal &lt;br&gt; 
-5.08mm pin spacing &lt;br&gt;15,58x8,5mm &lt;/p&gt;
-03.02.2022</description>
-<packageinstances>
-<packageinstance name="1X3"/>
-</packageinstances>
-</package3d>
-<package3d name="1X2" urn="urn:adsk.eagle:package:33856970/2" type="model">
-<description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
-&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
-
-&lt;p&gt;1x2 Terminal &lt;br&gt; 
-5.08mm pin spacing &lt;br&gt;10,5x8,5mm &lt;/p&gt;
-03.02.2022</description>
-<packageinstances>
-<packageinstance name="1X2"/>
-</packageinstances>
-</package3d>
-<package3d name="1X4" urn="urn:adsk.eagle:package:34931204/3" type="model">
+<package3d name="1X4" urn="urn:adsk.eagle:package:34931204/4" type="model">
 <description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
@@ -238,62 +216,84 @@
 <packageinstance name="1X4"/>
 </packageinstances>
 </package3d>
+<package3d name="1X2" urn="urn:adsk.eagle:package:33856970/3" type="model">
+<description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
+&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;1x2 Terminal &lt;br&gt; 
+5.08mm pin spacing &lt;br&gt;10,5x8,5mm &lt;/p&gt;
+03.02.2022</description>
+<packageinstances>
+<packageinstance name="1X2"/>
+</packageinstances>
+</package3d>
+<package3d name="1X3" urn="urn:adsk.eagle:package:34931205/4" type="model">
+<description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
+&lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
+
+&lt;p&gt;1x3 Terminal &lt;br&gt; 
+5.08mm pin spacing &lt;br&gt;15,58x8,5mm &lt;/p&gt;
+03.02.2022</description>
+<packageinstances>
+<packageinstance name="1X3"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="TERMINAL_1X4" urn="urn:adsk.eagle:symbol:34931202/1">
+<symbol name="TERMINAL_1X2" urn="urn:adsk.eagle:symbol:33856969/2">
 <description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
 03.02.2022</description>
-<circle x="-2.54" y="2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-7.62" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-12.7" radius="1.27" width="0.254" layer="94"/>
-<pin name="1" x="2.54" y="2.54" visible="pad" length="short" rot="R180"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" rot="R180"/>
-<pin name="3" x="2.54" y="-7.62" visible="pad" length="short" rot="R180"/>
-<pin name="4" x="2.54" y="-12.7" visible="pad" length="short" rot="R180"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-1.27" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="0" y1="-12.7" x2="-1.27" y2="-12.7" width="0.1524" layer="94"/>
-<text x="0" y="5.08" size="1.778" layer="95" font="vector" align="center">&gt;Name</text>
-<text x="0" y="-15.24" size="1.778" layer="96" font="vector" align="center">&gt;Value</text>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="0" y="-7.62" radius="1.27" width="0.254" layer="94"/>
+<pin name="1" x="5.08" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="1.27" y2="-7.62" width="0.1524" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="95" font="vector" align="center">&gt;Name</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96" font="vector" align="center">&gt;Value</text>
 </symbol>
-<symbol name="TERMINAL_1X2" urn="urn:adsk.eagle:symbol:33856969/1">
+<symbol name="TERMINAL_1X4" urn="urn:adsk.eagle:symbol:34931202/2">
 <description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
 03.02.2022</description>
-<circle x="-2.54" y="2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-2.54" radius="1.27" width="0.254" layer="94"/>
-<pin name="1" x="2.54" y="-2.54" visible="pad" length="short" rot="R180"/>
-<pin name="2" x="2.54" y="2.54" visible="pad" length="short" rot="R180"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
-<text x="0" y="5.08" size="1.778" layer="95" font="vector" align="center">&gt;Name</text>
-<text x="0" y="-5.08" size="1.778" layer="96" font="vector" align="center">&gt;Value</text>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="0" y="-7.62" radius="1.27" width="0.254" layer="94"/>
+<circle x="0" y="-15.24" radius="1.27" width="0.254" layer="94"/>
+<circle x="0" y="-22.86" radius="1.27" width="0.254" layer="94"/>
+<pin name="1" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="2" x="5.08" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="3" x="5.08" y="-15.24" visible="pad" length="short" rot="R180"/>
+<pin name="4" x="5.08" y="-22.86" visible="pad" length="short" rot="R180"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="1.27" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="1.27" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-22.86" x2="1.27" y2="-22.86" width="0.1524" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="95" font="vector" align="center">&gt;Name</text>
+<text x="2.54" y="-25.4" size="1.778" layer="96" font="vector" align="center">&gt;Value</text>
 </symbol>
-<symbol name="TERMINAL_1X3" urn="urn:adsk.eagle:symbol:34931203/1">
+<symbol name="TERMINAL_1X3" urn="urn:adsk.eagle:symbol:34931203/2">
 <description>&lt;H2&gt; Nacht Elk. - Terminal Connectors&lt;/H2&gt;
 &lt;H4&gt; Ekrem Turan Fırat &lt;/h4&gt;
 
 03.02.2022</description>
-<circle x="-2.54" y="2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-7.62" radius="1.27" width="0.254" layer="94"/>
-<pin name="1" x="2.54" y="2.54" visible="pad" length="short" rot="R180"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" rot="R180"/>
-<pin name="3" x="2.54" y="-7.62" visible="pad" length="short" rot="R180"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-1.27" y2="-7.62" width="0.1524" layer="94"/>
-<text x="0" y="5.08" size="1.778" layer="95" font="vector" align="center">&gt;Name</text>
-<text x="0" y="-10.16" size="1.778" layer="96" font="vector" align="center">&gt;Value</text>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="0" y="-7.62" radius="1.27" width="0.254" layer="94"/>
+<circle x="0" y="-15.24" radius="1.27" width="0.254" layer="94"/>
+<pin name="1" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="2" x="5.08" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="3" x="5.08" y="-15.24" visible="pad" length="short" rot="R180"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="1.27" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="1.27" y2="-15.24" width="0.1524" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="95" font="vector" align="center">&gt;Name</text>
+<text x="2.54" y="-17.78" size="1.778" layer="96" font="vector" align="center">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_TERMINALCONNECTORS_1X2" prefix="J" uservalue="yes" urn="urn:adsk.eagle:component:33856971/3">
+<deviceset name="NACHTELK_TERMINALCONNECTORS_1X2" prefix="J" uservalue="yes" urn="urn:adsk.eagle:component:33856971/6">
 <description>&lt;h2&gt;Nacht Elk. - Terminal Connectors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Terminal Connectors&lt;br&gt; 
@@ -302,7 +302,7 @@ Max. Amp: &lt;strong&gt; 15A&lt;/strong&gt;&lt;br&gt;
 Max Voltage: &lt;strong&gt; 300V&lt;/strong&gt;&lt;br&gt;
 Cross-Sectional Area: &lt;strong&gt;2.5mm² &lt;/strong&gt; &lt;br&gt;
 Mount Type: &lt;strong&gt;DIP &lt;/strong&gt;&lt;br&gt;
-Operating Temperature:  &lt;strong&gt;-30°C up to 120°C  &lt;/strong&gt; &lt;br&gt;
+Operating Temperature:  &lt;strong&gt;-40°C up to 105°C &lt;/strong&gt; &lt;br&gt;
 
 &lt;/p&gt;
 
@@ -317,23 +317,25 @@ Operating Temperature:  &lt;strong&gt;-30°C up to 120°C  &lt;/strong&gt; &lt;b
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33856970/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33856970/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AMP" value="15A" constant="no"/>
-<attribute name="CROSS-SECTIONAL" value="2.5mm²" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PIN-SPACING" value="5.08mm" constant="no"/>
-<attribute name="TEMPERATURE" value="30°C up to 120°C" constant="no"/>
-<attribute name="VALUE" value="1x2" constant="no"/>
-<attribute name="VOLTAGE" value="300V" constant="no"/>
+<attribute name="AMP" value="15A"/>
+<attribute name="CROSS-SECTIONAL" value="2.5mm²"/>
+<attribute name="DIGI-KEY_NUMBER" value="102-6145-ND"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PART-NUMBER" value="TB002-500-02BE"/>
+<attribute name="PIN-SPACING" value="5.08mm"/>
+<attribute name="TEMPERATURE" value="-40°C up to 105°C"/>
+<attribute name="VALUE" value="1x2"/>
+<attribute name="VOLTAGE" value="300V"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NACHTELK_TERMINALCONNECTORS_1X4" prefix="J" uservalue="yes" urn="urn:adsk.eagle:component:34931206/3">
+<deviceset name="NACHTELK_TERMINALCONNECTORS_1X4" prefix="J" uservalue="yes" urn="urn:adsk.eagle:component:34931206/6">
 <description>&lt;h2&gt;Nacht Elk. - Terminal Connectors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Terminal Connectors&lt;br&gt; 
@@ -342,7 +344,7 @@ Max. Amp: &lt;strong&gt; 15A&lt;/strong&gt;&lt;br&gt;
 Max Voltage: &lt;strong&gt; 300V&lt;/strong&gt;&lt;br&gt;
 Cross-Sectional Area: &lt;strong&gt;2.5mm² &lt;/strong&gt; &lt;br&gt;
 Mount Type: &lt;strong&gt;DIP &lt;/strong&gt;&lt;br&gt;
-Operating Temperature:  &lt;strong&gt;-30°C up to 120°C  &lt;/strong&gt; &lt;br&gt;
+Operating Temperature:  &lt;strong&gt;-40°C up to 105°C  &lt;/strong&gt; &lt;br&gt;
 
 &lt;/p&gt;
 
@@ -359,23 +361,25 @@ Operating Temperature:  &lt;strong&gt;-30°C up to 120°C  &lt;/strong&gt; &lt;b
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34931204/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34931204/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AMP" value="15A" constant="no"/>
-<attribute name="CROSS-SECTIONAL" value="2.5mm²" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PIN-SPACING" value="5.08mm" constant="no"/>
-<attribute name="TEMPERATURE" value="-30°C up to 120°C" constant="no"/>
-<attribute name="VALUE" value="1x4" constant="no"/>
-<attribute name="VOLTAGE" value="300V" constant="no"/>
+<attribute name="AMP" value="15A"/>
+<attribute name="CROSS-SECTIONAL" value="2.5mm²"/>
+<attribute name="DIGI-KEY_NUMBER" value="102-6147-ND"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PART-NUMBER" value="TB002-500-04BE"/>
+<attribute name="PIN-SPACING" value="5.08mm"/>
+<attribute name="TEMPERATURE" value="-40°C up to 105°C"/>
+<attribute name="VALUE" value="1x4"/>
+<attribute name="VOLTAGE" value="300V"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NACHTELK_TERMINALCONNECTORS_1X3" prefix="J" uservalue="yes" urn="urn:adsk.eagle:component:34931207/3">
+<deviceset name="NACHTELK_TERMINALCONNECTORS_1X3" prefix="J" uservalue="yes" urn="urn:adsk.eagle:component:34931207/6">
 <description>&lt;h2&gt;Nacht Elk. - Terminal Connectors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Terminal Connectors&lt;br&gt; 
@@ -384,7 +388,7 @@ Max. Amp: &lt;strong&gt; 15A&lt;/strong&gt;&lt;br&gt;
 Max Voltage: &lt;strong&gt; 300V&lt;/strong&gt;&lt;br&gt;
 Cross-Sectional Area: &lt;strong&gt;2.5mm² &lt;/strong&gt; &lt;br&gt;
 Mount Type: &lt;strong&gt;DIP &lt;/strong&gt;&lt;br&gt;
-Operating Temperature:  &lt;strong&gt;-30°C up to 120°C  &lt;/strong&gt; &lt;br&gt;
+Operating Temperature:  &lt;strong&gt;-40°C up to 105°C  &lt;/strong&gt; &lt;br&gt;
 
 &lt;/p&gt;
 
@@ -400,17 +404,19 @@ Operating Temperature:  &lt;strong&gt;-30°C up to 120°C  &lt;/strong&gt; &lt;b
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34931205/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34931205/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AMP" value="15A" constant="no"/>
-<attribute name="CROSS-SECTONAL" value="2.5mm²" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PIN-SPACING" value="5.08mm" constant="no"/>
-<attribute name="TEMPERATURE" value="-30°C up to 120°C" constant="no"/>
-<attribute name="VALUE" value="1x3" constant="no"/>
-<attribute name="VOLTAGE" value="300V" constant="no"/>
+<attribute name="AMP" value="15A"/>
+<attribute name="CROSS-SECTONAL" value="2.5mm²"/>
+<attribute name="DIGI-KEY_NUMBER" value="102-6146-ND"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PART-NUMBER" value="TB002-500-03BE"/>
+<attribute name="PIN-SPACING" value="5.08mm"/>
+<attribute name="TEMPERATURE" value="-40°C up to 105°C"/>
+<attribute name="VALUE" value="1x3"/>
+<attribute name="VOLTAGE" value="300V"/>
 </technology>
 </technologies>
 </device>

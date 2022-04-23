@@ -5,7 +5,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -157,8 +157,8 @@
 
 01.02.2022</description>
 <packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:33806994/1">
-<description>&lt;h2&gt; Nacht Elk - Capacitors 0603 &lt;/h2&gt;
+<package name="0603" urn="urn:adsk.eagle:footprint:33806994/3">
+<description>&lt;h2&gt; Nacht Elk. - Capacitors 0603 &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
 
 &lt;p&gt; Package: &lt;strong&gt;0603(1608)&lt;/strong&gt;
@@ -196,13 +196,19 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <wire x1="1.778" y1="0.635" x2="1.524" y2="0.889" width="0.1524" layer="39" curve="90"/>
 <wire x1="1.524" y1="0.889" x2="-1.524" y2="0.889" width="0.1524" layer="39"/>
 <wire x1="-1.524" y1="0.889" x2="-1.778" y2="0.635" width="0.1524" layer="39" curve="90"/>
+<wire x1="-0.127" y1="0.254" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0" x2="-0.127" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0.254" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="0.127" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="0.254" y2="0" width="0.127" layer="21"/>
 <text x="0" y="1.397" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:33806996/2" type="model">
-<description>&lt;h2&gt; Nacht Elk - Capacitors 0603 &lt;/h2&gt;
+<package3d name="0603" urn="urn:adsk.eagle:package:33806996/4" type="model">
+<description>&lt;h2&gt; Nacht Elk. - Capacitors 0603 &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
 
 &lt;p&gt; Package: &lt;strong&gt;0603(1608)&lt;/strong&gt;
@@ -234,13 +240,13 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_CAP-NONPOLAR-SMD" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:33806997/5">
+<deviceset name="NACHTELK_CAP-NONPOLAR-SMD" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:33806997/10">
 <description>&lt;h2&gt;Nacht Elk. - Ceramic Capacitors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Ceramic Capacitors&lt;br&gt; Value:&lt;strong&gt; 1pF -  100 µF &lt;/strong&gt;
 &lt;br&gt;Maximum operating voltage: &lt;strong&gt;6.3V - 10V - 16V - 25V - 50V  &lt;/strong&gt;
 &lt;br&gt;Tolerance: &lt;strong&gt;10% &lt;/strong&gt;
-&lt;br&gt; Operating temperature: &lt;strong&gt; -55 °C up to +125 &lt;/strong&gt;
+&lt;br&gt; Operating temperature: &lt;strong&gt; -55 °C up to +125°C &lt;/strong&gt;
 &lt;br&gt; Mount Type: &lt;strong&gt;SMD &lt;/strong&gt; 
 &lt;br&gt;Package: &lt;strong&gt;0402 - 0603(1608) - 0805 - 1210&lt;/strong&gt;  &lt;/p&gt;
 
@@ -255,222 +261,277 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33806996/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33806996/4"/>
 </package3dinstances>
 <technologies>
 <technology name="_100NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-CL10B104KB8NNNLCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B104KB8NNNL"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="100 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_100PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1908-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B101KB8NFNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="100 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_10PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="478-1163-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="06035A100JAT2A"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="10 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_10UF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="490-12323-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="GRT188R61E106ME13D"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +185°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value=" 10 µF " constant="no"/>
 <attribute name="VOLTAGE" value="25V" constant="no"/>
 </technology>
 <technology name="_15PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1296-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10C150JB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="15 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_1NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-6838-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="
+CL10B102KB8WPNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="1 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_1PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="311-1049-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CC0603CRNPO9BN1R0"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="1 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_1UF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1860-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10A105KB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +85°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value=" 1 µF " constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_2.2NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1292-1412-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="0603B222K500CT"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="2.2 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_2.2PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="311-1739-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CC0603CRNPO9BN2R2"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="2.2 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_2.2UF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="490-10731-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="GRM188R61E225KA12D"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +85°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value=" 2.2 µF " constant="no"/>
 <attribute name="VOLTAGE" value="25V" constant="no"/>
 </technology>
 <technology name="_220NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="445-6926-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CGA3E3X7R1H224K080AB"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="220 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_220PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1986-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B221KB8NFNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="220 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_22NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-6534-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B223KB8WPNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="22 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_22PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-2228-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value=" CL10C220JB8NFNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="22 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_22UF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1193-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10A226MQ8NRNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +85°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value=" 22 µF " constant="no"/>
 <attribute name="VOLTAGE" value="6.3V" constant="no"/>
 </technology>
 <technology name="_3.3PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-6549-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10C3R3CB81PNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="3.3 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_330PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1787-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B331KB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="330 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_33NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-2041-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B333KB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="33 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_33PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1070-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10C330JB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="33 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_4.7NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1098-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B472KB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="4.7 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_4.7PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1792-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10C4R7BB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="4.7 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_4.7UF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="490-13362-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="GRM188C81C475KE11D"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +105°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value=" 4.7 µF " constant="no"/>
 <attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
 <technology name="_470NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="587-3171-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="UMK107ABJ474KA-T"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +85°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="470 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_470PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1094-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B471KB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="470 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_47NF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="1276-1063-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="CL10B473KB8NNNC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="47 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_47PF">
-<attribute name="MOUNT-TYPE" value="SMD" constant="no"/>
-<attribute name="PACKAGE" value="0603(1806)" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +125" constant="no"/>
-<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="478-1171-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="06035A470JAT2A"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="47 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>

@@ -157,8 +157,8 @@
 
 25.12.2021</description>
 <packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:33208421/6">
-<description>&lt;h2&gt; Nacht Elk - Resistor 0603 &lt;/h2&gt;
+<package name="0603" urn="urn:adsk.eagle:footprint:33208421/8">
+<description>&lt;h2&gt; Nacht Elk. - Resistor 0603 &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
 
 &lt;p&gt; Package: &lt;strong&gt;0603(1608)&lt;/strong&gt;
@@ -197,13 +197,17 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <wire x1="1.778" y1="0.635" x2="1.524" y2="0.889" width="0.1524" layer="39" curve="90"/>
 <wire x1="1.524" y1="0.889" x2="-1.524" y2="0.889" width="0.1524" layer="39"/>
 <wire x1="-1.524" y1="0.889" x2="-1.778" y2="0.635" width="0.1524" layer="39" curve="90"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.0762" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="0" y2="-0.127" width="0.0762" layer="21"/>
+<wire x1="0" y1="-0.127" x2="0.127" y2="0.127" width="0.0762" layer="21"/>
+<wire x1="0.127" y1="0.127" x2="0.254" y2="-0.127" width="0.0762" layer="21"/>
 <text x="0" y="1.397" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:33208423/7" type="model">
-<description>&lt;h2&gt; Nacht Elk - Resistor 0603 &lt;/h2&gt;
+<package3d name="0603" urn="urn:adsk.eagle:package:33208423/9" type="model">
+<description>&lt;h2&gt; Nacht Elk. - Resistor 0603 &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
 
 &lt;p&gt; Package: &lt;strong&gt;0603(1608)&lt;/strong&gt;
@@ -238,11 +242,11 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_RES-SMD" prefix="R" uservalue="yes" urn="urn:adsk.eagle:component:33208452/12">
+<deviceset name="NACHTELK_RES-SMD" prefix="R" uservalue="yes" urn="urn:adsk.eagle:component:33208452/19">
 <description>&lt;h2&gt;Nacht Elk. - Resistor SMD &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Resistor SMD&lt;br&gt; Value:&lt;strong&gt; 1/10W 0R - 2.2MR&lt;/strong&gt;
-&lt;br&gt;Tolerance: &lt;strong&gt;%5 &lt;/strong&gt;
+&lt;p&gt;Nacht Elk. - Resistor SMD&lt;br&gt; Value:&lt;strong&gt; 1/8W - 1/10W 0R - 2.2MR&lt;/strong&gt;
+&lt;br&gt;Tolerance: &lt;strong&gt;%1 - %5 &lt;/strong&gt;
 &lt;br&gt; Operating temperature: &lt;strong&gt; -55 °C up to +155°C &lt;/strong&gt;
 &lt;br&gt;Package: &lt;strong&gt;0402 - 0603(1608) - 0805 - 1206 - 1210 - 2010 - 2512&lt;/strong&gt;  &lt;/p&gt;
 
@@ -257,287 +261,407 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33208423/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33208423/9"/>
 </package3dinstances>
 <technologies>
 <technology name="_0R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603ZT0R00CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603ZT0R00"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="0" constant="no"/>
 </technology>
 <technology name="_1.5M">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT1M50CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT1M50"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="1.5M" constant="no"/>
 </technology>
 <technology name="_100K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT100KCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT100K"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="100K" constant="no"/>
 </technology>
 <technology name="_100R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT100RCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT100R"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="100" constant="no"/>
 </technology>
 <technology name="_10K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT10K0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT10K0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
 <technology name="_10R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT10R0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT10R0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="10" constant="no"/>
 </technology>
 <technology name="_12K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT12K0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT12K0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="12K" constant="no"/>
 </technology>
 <technology name="_150K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT150KCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT150K"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="150K" constant="no"/>
 </technology>
 <technology name="_150R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT150RCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT150R"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="150" constant="no"/>
 </technology>
 <technology name="_15K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FG15K0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FG15K0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="15K" constant="no"/>
 </technology>
 <technology name="_1K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT1K00CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT1K00"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="1K" constant="no"/>
 </technology>
 <technology name="_1M">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT1M00CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT1M00"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="1M" constant="no"/>
 </technology>
 <technology name="_1R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT1R00CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT1R00"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="1" constant="no"/>
 </technology>
 <technology name="_2.2K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT2K20CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT2K20"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="2.2K" constant="no"/>
 </technology>
 <technology name="_2.2M">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT2M20CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT2M20"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="2.2M" constant="no"/>
 </technology>
 <technology name="_2.2R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT2R20CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT2R20"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="2.2" constant="no"/>
 </technology>
 <technology name="_20K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT20K0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT20K0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="20K" constant="no"/>
 </technology>
 <technology name="_220K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT220KCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT220K"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="220K" constant="no"/>
 </technology>
 <technology name="_220R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT220RCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT220R"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="220" constant="no"/>
 </technology>
 <technology name="_22K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FG22K0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FG22K0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="22K" constant="no"/>
 </technology>
 <technology name="_22R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT22R0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT22R0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="22" constant="no"/>
 </technology>
 <technology name="_3.3K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT3K30CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT3K30"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="3.3K" constant="no"/>
 </technology>
 <technology name="_3.3R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT3R30CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT3R30"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="3.3" constant="no"/>
 </technology>
 <technology name="_330K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT330KCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT330K"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="330K" constant="no"/>
 </technology>
 <technology name="_330R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT330RCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT330R"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="330" constant="no"/>
 </technology>
 <technology name="_33K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT33K0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT33K0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="33K" constant="no"/>
 </technology>
 <technology name="_33R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT33R0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT33R0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="33" constant="no"/>
 </technology>
 <technology name="_4.7K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT4K70CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT4K70"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="4.7K" constant="no"/>
 </technology>
 <technology name="_4.7R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RNCP0603FTD4R70CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RNCP0603FTD4R70"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="4.7" constant="no"/>
 </technology>
 <technology name="_470K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT470KCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT470K"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="470K" constant="no"/>
 </technology>
 <technology name="_470R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT470RCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT470R"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="470" constant="no"/>
 </technology>
 <technology name="_47K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT47K0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT47K0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="47K" constant="no"/>
 </technology>
 <technology name="_47R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT47R0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT47R0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="47" constant="no"/>
 </technology>
 <technology name="_51K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT51K0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT51K0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="51K" constant="no"/>
 </technology>
 <technology name="_51R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT51R0CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT51R0"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="51" constant="no"/>
 </technology>
 <technology name="_560K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT560KCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT560K"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="560K" constant="no"/>
 </technology>
 <technology name="_560R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT560RCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT560R"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="560" constant="no"/>
 </technology>
 <technology name="_680R">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT680RCT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT680R"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="680" constant="no"/>
 </technology>
 <technology name="_8.2K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603JT8K20CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603JT8K20"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%5"/>
 <attribute name="VALUE" value="8.2K" constant="no"/>
 </technology>
 <technology name="_9.1K">
-<attribute name="PACKAGE" value="0603(1608)" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="TEMPERATURE" value="-55 °C up to +155°C" constant="no"/>
-<attribute name="TOLERANCE" value="%5" constant="no"/>
+<attribute name="DIGI-KEY_NUMBER" value="RMCF0603FT9K10CT-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1608)"/>
+<attribute name="PART-NUMBER" value="RMCF0603FT9K10"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +155°C"/>
+<attribute name="TOLERANCE" value="%1"/>
 <attribute name="VALUE" value="9.1K" constant="no"/>
 </technology>
 </technologies>

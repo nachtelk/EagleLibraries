@@ -5,7 +5,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="10" altunitdist="mic" altunit="mic"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -850,7 +850,7 @@ Dimensions(LxWxH): &lt;strong&gt;14x14x1 mm&lt;/strong&gt;&lt;/P&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTATMEGA_2560-16AU" prefix="U" uservalue="yes" urn="urn:adsk.eagle:component:33594328/7">
+<deviceset name="NACHTELK_ATMEGA_2560-16AU" prefix="U" uservalue="yes" urn="urn:adsk.eagle:component:33594328/10">
 <description>&lt;h2&gt;Nacht Elk. - Atmel ATmega2560-16AU &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Atmel ATmega2560-16AU &lt;br&gt;
@@ -980,16 +980,18 @@ Package: &lt;strong&gt;TQFP100 &lt;/strong&gt;&lt;br&gt;
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="COMPANY" value="Atmel" constant="no"/>
-<attribute name="IO-PINS" value="86" constant="no"/>
-<attribute name="MEMORY" value="256kB" constant="no"/>
-<attribute name="MICROCONTROLLER-TYPE" value="AVR" constant="no"/>
-<attribute name="MODEL" value="ATmega2560-16AU" constant="no"/>
-<attribute name="PACKAGE" value="TQFP100 " constant="no"/>
-<attribute name="SPEED" value="16MHz" constant="no"/>
-<attribute name="TEMPERATURE" value="-40°C up to +85°C" constant="no"/>
-<attribute name="VALUE" value="ATmega2560-16AU" constant="no"/>
-<attribute name="VOLTAGE" value="4,5V up to 5,5V" constant="no"/>
+<attribute name="COMPANY" value="Atmel"/>
+<attribute name="DIGI-KEY_NUMBER" value="ATMEGA2560-16AU-ND"/>
+<attribute name="IO-PINS" value="86"/>
+<attribute name="MEMORY" value="256kB"/>
+<attribute name="MICROCONTROLLER-TYPE" value="AVR"/>
+<attribute name="MODEL" value="ATmega2560-16AU"/>
+<attribute name="PACKAGE" value="TQFP100 "/>
+<attribute name="PART-NUMBER" value="ATMEGA2560-16AU"/>
+<attribute name="SPEED" value="16MHz"/>
+<attribute name="TEMPERATURE" value="-40°C up to +85°C"/>
+<attribute name="VALUE" value="ATmega2560-16AU"/>
+<attribute name="VOLTAGE" value="4,5V up to 5,5V"/>
 </technology>
 </technologies>
 </device>

@@ -258,7 +258,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_CRYSTAL_HC-49S" prefix="Q" uservalue="yes" urn="urn:adsk.eagle:component:33863688/3">
+<deviceset name="NACHTELK_CRYSTAL_HC-49S" prefix="Q" uservalue="yes" urn="urn:adsk.eagle:component:33863688/4">
 <description>&lt;h2&gt;Nacht Elk. - Crysta Oscillator  &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. -  Crysta Oscillator&lt;br&gt; Value:&lt;strong&gt; 2mHz - 32.768mHz &lt;/strong&gt;
@@ -284,162 +284,162 @@
 <technologies>
 <technology name="_10.245MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="10.245 mHz" constant="no"/>
 </technology>
 <technology name="_10MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="10 mHz" constant="no"/>
 </technology>
 <technology name="_11.0592MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="11.0592 mHz" constant="no"/>
 </technology>
 <technology name="_12MHZ">
-<attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="CAPACITANCE" value="16 pF" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="12 mHz" constant="no"/>
 </technology>
 <technology name="_16MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="16 mHz" constant="no"/>
 </technology>
 <technology name="_20MHZ">
-<attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="CAPACITANCE" value="16 pF" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="20 mHz" constant="no"/>
 </technology>
 <technology name="_25MHZ">
-<attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="CAPACITANCE" value="18 pF" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="25 mHz" constant="no"/>
 </technology>
 <technology name="_27MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="27 mHz" constant="no"/>
 </technology>
 <technology name="_2MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="2 mHz" constant="no"/>
 </technology>
 <technology name="_3.5795MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="3.5795 mHz" constant="no"/>
 </technology>
 <technology name="_32.768MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="32.768 mHz" constant="no"/>
 </technology>
 <technology name="_4.096MHZ">
-<attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="CAPACITANCE" value="16 pF" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="4.096 mHz" constant="no"/>
 </technology>
 <technology name="_4.9152MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="4.9152 mHz" constant="no"/>
 </technology>
 <technology name="_4MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="4 mHz" constant="no"/>
 </technology>
 <technology name="_5.625MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="5.625 mHz" constant="no"/>
 </technology>
 <technology name="_6.144MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="6.144 mHz" constant="no"/>
 </technology>
 <technology name="_6MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="6 mHz" constant="no"/>
 </technology>
 <technology name="_7.3728">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="7.3728 mHz" constant="no"/>
 </technology>
 <technology name="_7.680MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="7.680 mHz" constant="no"/>
 </technology>
 <technology name="_8MHZ">
 <attribute name="CAPACITANCE" value="20 pF" constant="no"/>
-<attribute name="MOUNT-TYPE" value="DIP" constant="no"/>
-<attribute name="PACKAGE" value="HC-49S" constant="no"/>
-<attribute name="TEMPERATURE" value="-10 °C up to +60 " constant="no"/>
-<attribute name="TOLERANCE" value="±20PPM" constant="no"/>
+<attribute name="MOUNT-TYPE" value="DIP"/>
+<attribute name="PACKAGE" value="HC-49S"/>
+<attribute name="TEMPERATURE" value="-10 °C up to +60 "/>
+<attribute name="TOLERANCE" value="±20PPM"/>
 <attribute name="VALUE" value="8 mHz" constant="no"/>
 </technology>
 </technologies>
