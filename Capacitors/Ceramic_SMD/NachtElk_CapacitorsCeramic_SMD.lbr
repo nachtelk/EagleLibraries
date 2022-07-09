@@ -157,7 +157,7 @@
 
 01.02.2022</description>
 <packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:33806994/3">
+<package name="0603" urn="urn:adsk.eagle:footprint:33806994/4">
 <description>&lt;h2&gt; Nacht Elk. - Capacitors 0603 &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
 
@@ -188,14 +188,14 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <wire x1="-1.27" y1="0.635" x2="-1.524" y2="0.381" width="0.1524" layer="51" curve="90"/>
 <wire x1="-1.524" y1="0.381" x2="-1.524" y2="-0.381" width="0.1524" layer="51"/>
 <wire x1="-1.524" y1="-0.381" x2="-1.27" y2="-0.635" width="0.1524" layer="51" curve="90"/>
-<wire x1="-1.778" y1="0.635" x2="-1.778" y2="-0.635" width="0.1524" layer="39"/>
-<wire x1="-1.778" y1="-0.635" x2="-1.524" y2="-0.889" width="0.1524" layer="39" curve="90"/>
-<wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.1524" layer="39"/>
-<wire x1="1.524" y1="-0.889" x2="1.778" y2="-0.635" width="0.1524" layer="39" curve="90"/>
-<wire x1="1.778" y1="-0.635" x2="1.778" y2="0.635" width="0.1524" layer="39"/>
-<wire x1="1.778" y1="0.635" x2="1.524" y2="0.889" width="0.1524" layer="39" curve="90"/>
-<wire x1="1.524" y1="0.889" x2="-1.524" y2="0.889" width="0.1524" layer="39"/>
-<wire x1="-1.524" y1="0.889" x2="-1.778" y2="0.635" width="0.1524" layer="39" curve="90"/>
+<wire x1="-1.7272" y1="0.5842" x2="-1.7272" y2="-0.5842" width="0.1524" layer="39"/>
+<wire x1="-1.7272" y1="-0.5842" x2="-1.4732" y2="-0.8382" width="0.1524" layer="39" curve="90"/>
+<wire x1="-1.4732" y1="-0.8382" x2="1.4732" y2="-0.8382" width="0.1524" layer="39"/>
+<wire x1="1.4732" y1="-0.8382" x2="1.7272" y2="-0.5842" width="0.1524" layer="39" curve="90"/>
+<wire x1="1.7272" y1="-0.5842" x2="1.7272" y2="0.5842" width="0.1524" layer="39"/>
+<wire x1="1.7272" y1="0.5842" x2="1.4732" y2="0.8382" width="0.1524" layer="39" curve="90"/>
+<wire x1="1.4732" y1="0.8382" x2="-1.4732" y2="0.8382" width="0.1524" layer="39"/>
+<wire x1="-1.4732" y1="0.8382" x2="-1.7272" y2="0.5842" width="0.1524" layer="39" curve="90"/>
 <wire x1="-0.127" y1="0.254" x2="-0.127" y2="0" width="0.127" layer="21"/>
 <wire x1="-0.127" y1="0" x2="-0.127" y2="-0.254" width="0.127" layer="21"/>
 <wire x1="0.127" y1="0.254" x2="0.127" y2="0" width="0.127" layer="21"/>
@@ -205,9 +205,57 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <text x="0" y="1.397" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
+<package name="0805" urn="urn:adsk.eagle:footprint:35513432/4">
+<description>&lt;h2&gt; Nacht Elk. - Capacitors 0805 &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
+
+&lt;p&gt; Package: &lt;strong&gt;0805(2012)&lt;/strong&gt;
+&lt;br&gt; 
+Dimensions(LxWxH): &lt;strong&gt;2,0x1,2x1,35 mm&lt;/strong&gt;&lt;/P&gt;
+
+27.04.2022</description>
+<smd name="1" x="-1.0795" y="0" dx="1.524" dy="1.524" layer="1" roundness="35"/>
+<smd name="2" x="1.0795" y="0" dx="1.524" dy="1.524" layer="1" roundness="35"/>
+<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.889" x2="-2.032" y2="0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="0.635" x2="-2.032" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-0.635" x2="-1.778" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.778" y1="-0.889" x2="1.778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="2.032" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.032" y1="-0.635" x2="2.032" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="0.635" x2="1.778" y2="0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.9995" y1="-0.5334" x2="1.0015" y2="-0.5334" width="0.1524" layer="51"/>
+<wire x1="-0.9995" y1="-0.5334" x2="-0.9995" y2="0.5206" width="0.1524" layer="51"/>
+<wire x1="-0.9995" y1="0.5206" x2="1.0015" y2="0.5206" width="0.1524" layer="51"/>
+<wire x1="1.0015" y1="-0.5334" x2="1.0015" y2="0.5206" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0.635" x2="-2.032" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-0.635" x2="-1.778" y2="-0.889" width="0.1524" layer="51" curve="90"/>
+<wire x1="-1.778" y1="-0.889" x2="1.778" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-0.889" x2="2.032" y2="-0.635" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.032" y1="-0.635" x2="2.032" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.635" x2="1.778" y2="0.889" width="0.1524" layer="51" curve="90"/>
+<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0.889" x2="-2.032" y2="0.635" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.2352" y1="0.8382" x2="-2.2352" y2="-0.8382" width="0.1524" layer="39"/>
+<wire x1="-2.2352" y1="-0.8382" x2="-1.9812" y2="-1.0922" width="0.1524" layer="39" curve="90"/>
+<wire x1="-1.9812" y1="-1.0922" x2="1.9812" y2="-1.0922" width="0.1524" layer="39"/>
+<wire x1="1.9812" y1="-1.0922" x2="2.2352" y2="-0.8382" width="0.1524" layer="39" curve="90"/>
+<wire x1="2.2352" y1="-0.8382" x2="2.2352" y2="0.8382" width="0.1524" layer="39"/>
+<wire x1="2.2352" y1="0.8382" x2="1.9812" y2="1.0922" width="0.1524" layer="39" curve="90"/>
+<wire x1="1.9812" y1="1.0922" x2="-1.9812" y2="1.0922" width="0.1524" layer="39"/>
+<wire x1="-1.9812" y1="1.0922" x2="-2.2352" y2="0.8382" width="0.1524" layer="39" curve="90"/>
+<wire x1="-0.127" y1="0.381" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0" x2="-0.127" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="0.127" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="0.254" y2="0" width="0.127" layer="21"/>
+<text x="0" y="1.651" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:33806996/4" type="model">
+<package3d name="0603" urn="urn:adsk.eagle:package:33806996/5" type="model">
 <description>&lt;h2&gt; Nacht Elk. - Capacitors 0603 &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
 
@@ -218,6 +266,19 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 01.02.2022</description>
 <packageinstances>
 <packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+<package3d name="0805" urn="urn:adsk.eagle:package:35513433/5" type="model">
+<description>&lt;h2&gt; Nacht Elk. - Capacitors 0805 &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
+
+&lt;p&gt; Package: &lt;strong&gt;0805(2012)&lt;/strong&gt;
+&lt;br&gt; 
+Dimensions(LxWxH): &lt;strong&gt;2,0x1,2x1,35 mm&lt;/strong&gt;&lt;/P&gt;
+
+27.04.2022</description>
+<packageinstances>
+<packageinstance name="0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -240,15 +301,15 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_CAP-NONPOLAR-SMD" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:33806997/10">
+<deviceset name="NACHTELK_CAP-NONPOLAR-SMD" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:33806997/16">
 <description>&lt;h2&gt;Nacht Elk. - Ceramic Capacitors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Ceramic Capacitors&lt;br&gt; Value:&lt;strong&gt; 1pF -  100 µF &lt;/strong&gt;
 &lt;br&gt;Maximum operating voltage: &lt;strong&gt;6.3V - 10V - 16V - 25V - 50V  &lt;/strong&gt;
-&lt;br&gt;Tolerance: &lt;strong&gt;10% &lt;/strong&gt;
+&lt;br&gt;Tolerance: &lt;strong&gt;10% -20% &lt;/strong&gt;
 &lt;br&gt; Operating temperature: &lt;strong&gt; -55 °C up to +125°C &lt;/strong&gt;
 &lt;br&gt; Mount Type: &lt;strong&gt;SMD &lt;/strong&gt; 
-&lt;br&gt;Package: &lt;strong&gt;0402 - 0603(1608) - 0805 - 1210&lt;/strong&gt;  &lt;/p&gt;
+&lt;br&gt;Package: &lt;strong&gt;0402 - 0603(1608) - 0805(2012) - 1210&lt;/strong&gt;  &lt;/p&gt;
 
 01.02.2022</description>
 <gates>
@@ -261,9 +322,19 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33806996/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33806996/5"/>
 </package3dinstances>
 <technologies>
+<technology name="_0.33UF">
+<attribute name="DIGI-KEY_NUMBER" value="445-5950-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="C1608X7R1H334K080AC"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="0.33 µF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 <technology name="_100NF">
 <attribute name="DIGI-KEY_NUMBER" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MOUNT-TYPE" value="SMD"/>
@@ -282,6 +353,16 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="100 pF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="DIGI-KEY_NUMBER" value="445-1311-2-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0603(1806)"/>
+<attribute name="PART-NUMBER" value="C1608X7R1H103K080AA"/>
+<attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="10 nF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_10PF">
@@ -318,8 +399,7 @@ Dimensions(LxWxH): &lt;strong&gt;1,60x0,80x0,45 mm&lt;/strong&gt;&lt;/P&gt;
 <attribute name="DIGI-KEY_NUMBER" value="1276-6838-1-ND"/>
 <attribute name="MOUNT-TYPE" value="SMD"/>
 <attribute name="PACKAGE" value="0603(1806)"/>
-<attribute name="PART-NUMBER" value="
-CL10B102KB8WPNC"/>
+<attribute name="PART-NUMBER" value=" CL10B102KB8WPNC"/>
 <attribute name="TEMPERATURE" value="-55 °C up to +125°C"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="1 nF" constant="no"/>
@@ -534,6 +614,27 @@ CL10B102KB8WPNC"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VALUE" value="47 pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35513433/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_10UF">
+<attribute name="DIGI-KEY_NUMBER" value="490-18664-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="PACKAGE" value="0805(2012)"/>
+<attribute name="PART-NUMBER" value="GRM21BR61H106ME43L"/>
+<attribute name="TEMPERATURE" value="-55°C up to  +85°C"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VALUE" value="10 µF"/>
+<attribute name="VOLTAGE" value="50V"/>
 </technology>
 </technologies>
 </device>

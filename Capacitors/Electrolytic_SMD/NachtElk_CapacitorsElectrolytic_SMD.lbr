@@ -5,7 +5,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -76,6 +76,118 @@
 
 31.01.2022</description>
 <packages>
+<package name="CAP-ELEC-SMD_6.3X7.7" urn="urn:adsk.eagle:footprint:33795997/1">
+<description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
+
+&lt;p&gt;Dimensions(DxL): &lt;strong&gt;6.3x7.7&lt;/strong&gt;&lt;/P&gt;
+
+31.01.2022</description>
+<wire x1="-3.36" y1="-3.36" x2="-3.36" y2="-0.96" width="0.254" layer="21"/>
+<wire x1="-3.36" y1="1.04" x2="-3.36" y2="3.44" width="0.254" layer="21"/>
+<wire x1="-3.36" y1="3.44" x2="1.84" y2="3.44" width="0.254" layer="21"/>
+<wire x1="1.84" y1="3.44" x2="3.44" y2="1.84" width="0.254" layer="21"/>
+<wire x1="3.44" y1="1.84" x2="3.44" y2="1.04" width="0.254" layer="21"/>
+<wire x1="3.44" y1="-0.96" x2="3.44" y2="-1.76" width="0.254" layer="21"/>
+<wire x1="3.44" y1="-1.76" x2="1.84" y2="-3.36" width="0.254" layer="21"/>
+<wire x1="1.84" y1="-3.36" x2="-3.36" y2="-3.36" width="0.254" layer="21"/>
+<wire x1="-3.36" y1="-3.36" x2="-3.36" y2="3.44" width="0.254" layer="51"/>
+<wire x1="-3.36" y1="3.44" x2="1.84" y2="3.44" width="0.254" layer="51"/>
+<wire x1="1.84" y1="3.44" x2="3.44" y2="1.84" width="0.254" layer="51"/>
+<wire x1="3.44" y1="1.84" x2="3.44" y2="-1.76" width="0.254" layer="51"/>
+<wire x1="3.44" y1="-1.76" x2="1.84" y2="-3.36" width="0.254" layer="51"/>
+<wire x1="1.84" y1="-3.36" x2="-3.36" y2="-3.36" width="0.254" layer="51"/>
+<wire x1="5.4214" y1="-0.0008" x2="5.1214" y2="-0.0008" width="0.127" layer="51"/>
+<wire x1="5.1214" y1="-0.0008" x2="4.8214" y2="-0.0008" width="0.127" layer="51"/>
+<wire x1="5.1214" y1="-0.0008" x2="5.1214" y2="0.2992" width="0.127" layer="51"/>
+<wire x1="5.1214" y1="-0.0008" x2="5.1214" y2="-0.3008" width="0.127" layer="51"/>
+<wire x1="4.8214" y1="-0.0008" x2="5.4214" y2="-0.0008" width="0.127" layer="21"/>
+<wire x1="5.1214" y1="0.2992" x2="5.1214" y2="-0.3008" width="0.127" layer="21"/>
+<circle x="0.04" y="0.04" radius="3.15" width="0.15" layer="51"/>
+<smd name="2" x="-2.72" y="0.04" dx="3.5" dy="1.6" layer="1"/>
+<smd name="1" x="2.84" y="0.04" dx="3.5" dy="1.6" layer="1"/>
+<text x="0" y="4.65" size="1.778" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="-4.55" size="1.778" layer="27" font="vector" align="center">&gt;Value</text>
+<polygon width="0.127" layer="39">
+<vertex x="-3.6" y="-1.25"/>
+<vertex x="-3.6" y="-0.85"/>
+<vertex x="-4.25" y="-0.85"/>
+<vertex x="-4.45" y="-0.85"/>
+<vertex x="-4.55" y="-0.85"/>
+<vertex x="-4.55" y="-0.2"/>
+<vertex x="-4.55" y="0.94"/>
+<vertex x="-4.14" y="0.94"/>
+<vertex x="-3.6" y="0.94"/>
+<vertex x="-3.6" y="1.35"/>
+<vertex x="-3.6" y="3.68"/>
+<vertex x="-2.62" y="3.68"/>
+<vertex x="1.97" y="3.68"/>
+<vertex x="2.25" y="3.4"/>
+<vertex x="3.7" y="1.95"/>
+<vertex x="3.7" y="1.55"/>
+<vertex x="3.7" y="0.94"/>
+<vertex x="4.68" y="0.94"/>
+<vertex x="4.68" y="0.56"/>
+<vertex x="4.68" y="-0.85"/>
+<vertex x="3.65" y="-0.85"/>
+<vertex x="3.65" y="-1.9"/>
+<vertex x="3.3" y="-2.25"/>
+<vertex x="1.95" y="-3.6"/>
+<vertex x="-0.25" y="-3.6"/>
+<vertex x="-3.6" y="-3.6"/>
+</polygon>
+</package>
+<package name="CAP-ELEC-SMD_4X5.5" urn="urn:adsk.eagle:footprint:33796000/1">
+<description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
+
+&lt;p&gt;Dimensions(DxL): &lt;strong&gt;4x5.5&lt;/strong&gt;&lt;/P&gt;
+
+31.01.2022</description>
+<wire x1="-2.25" y1="-0.95" x2="-2.25" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="-2.25" y1="-2.2" x2="1.4" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="1.4" y1="-2.2" x2="2.25" y2="-1.35" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-1.35" x2="2.25" y2="-0.95" width="0.254" layer="21"/>
+<wire x1="2.25" y1="0.95" x2="2.25" y2="1.45" width="0.254" layer="21"/>
+<wire x1="2.25" y1="1.45" x2="1.4" y2="2.3" width="0.254" layer="21"/>
+<wire x1="1.4" y1="2.3" x2="-2.25" y2="2.3" width="0.254" layer="21"/>
+<wire x1="-2.25" y1="2.3" x2="-2.25" y2="0.95" width="0.254" layer="21"/>
+<wire x1="-2.25" y1="0.95" x2="-2.25" y2="2.3" width="0.254" layer="51"/>
+<wire x1="-2.25" y1="2.3" x2="1.4" y2="2.3" width="0.254" layer="51"/>
+<wire x1="1.4" y1="2.3" x2="2.25" y2="1.45" width="0.254" layer="51"/>
+<wire x1="2.25" y1="1.45" x2="2.25" y2="0.95" width="0.254" layer="51"/>
+<wire x1="2.25" y1="-0.95" x2="2.25" y2="-1.35" width="0.254" layer="51"/>
+<wire x1="2.25" y1="-1.35" x2="1.4" y2="-2.2" width="0.254" layer="51"/>
+<wire x1="1.4" y1="-2.2" x2="-2.25" y2="-2.2" width="0.254" layer="51"/>
+<wire x1="-2.25" y1="-2.2" x2="-2.25" y2="-0.95" width="0.254" layer="51"/>
+<wire x1="3.95" y1="0" x2="3.65" y2="0" width="0.127" layer="51"/>
+<wire x1="3.65" y1="0" x2="3.35" y2="0" width="0.127" layer="51"/>
+<wire x1="3.65" y1="0" x2="3.65" y2="0.3" width="0.127" layer="51"/>
+<wire x1="3.65" y1="0" x2="3.65" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="0" x2="3.95" y2="0" width="0.127" layer="21"/>
+<wire x1="3.65" y1="0.3" x2="3.65" y2="-0.3" width="0.127" layer="21"/>
+<circle x="0" y="0.05" radius="2" width="0.15" layer="51"/>
+<smd name="2" x="-1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<smd name="1" x="1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<text x="0" y="3.25" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="-3.15" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
+<polygon width="0.127" layer="39">
+<vertex x="-2.5" y="0.9"/>
+<vertex x="-3.2" y="0.9"/>
+<vertex x="-3.2" y="-0.9"/>
+<vertex x="-2.5" y="-0.9"/>
+<vertex x="-2.5" y="-2.45"/>
+<vertex x="1.5" y="-2.45"/>
+<vertex x="2.5" y="-1.45"/>
+<vertex x="2.5" y="-0.9"/>
+<vertex x="3.2" y="-0.9"/>
+<vertex x="3.2" y="0.9"/>
+<vertex x="2.5" y="0.9"/>
+<vertex x="2.5" y="1.55"/>
+<vertex x="1.5" y="2.55"/>
+<vertex x="-2.5" y="2.55"/>
+</polygon>
+</package>
 <package name="CAP-ELEC-SMD_6.3X5.5" urn="urn:adsk.eagle:footprint:33795998/1">
 <description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
@@ -137,7 +249,7 @@
 <vertex x="-3.6" y="-3.6"/>
 </polygon>
 </package>
-<package name="CAP-ELEC-SMD_8X10" urn="urn:adsk.eagle:footprint:33795996/1">
+<package name="CAP-ELEC-SMD_8X10" urn="urn:adsk.eagle:footprint:33795996/2">
 <description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
 
@@ -183,69 +295,8 @@
 <vertex x="2.5" y="-4.45"/>
 <vertex x="-4.45" y="-4.45"/>
 </polygon>
-<text x="0" y="5.6" size="2.1844" layer="21" font="vector" align="center">&gt;Name</text>
+<text x="0" y="5.6" size="2.1844" layer="25" font="vector" align="center">&gt;Name</text>
 <text x="0" y="-5.6" size="2.1844" layer="27" font="vector" align="center">&gt;Value</text>
-</package>
-<package name="CAP-ELEC-SMD_6.3X7.7" urn="urn:adsk.eagle:footprint:33795997/1">
-<description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
-&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
-
-&lt;p&gt;Dimensions(DxL): &lt;strong&gt;6.3x7.7&lt;/strong&gt;&lt;/P&gt;
-
-31.01.2022</description>
-<wire x1="-3.36" y1="-3.36" x2="-3.36" y2="-0.96" width="0.254" layer="21"/>
-<wire x1="-3.36" y1="1.04" x2="-3.36" y2="3.44" width="0.254" layer="21"/>
-<wire x1="-3.36" y1="3.44" x2="1.84" y2="3.44" width="0.254" layer="21"/>
-<wire x1="1.84" y1="3.44" x2="3.44" y2="1.84" width="0.254" layer="21"/>
-<wire x1="3.44" y1="1.84" x2="3.44" y2="1.04" width="0.254" layer="21"/>
-<wire x1="3.44" y1="-0.96" x2="3.44" y2="-1.76" width="0.254" layer="21"/>
-<wire x1="3.44" y1="-1.76" x2="1.84" y2="-3.36" width="0.254" layer="21"/>
-<wire x1="1.84" y1="-3.36" x2="-3.36" y2="-3.36" width="0.254" layer="21"/>
-<wire x1="-3.36" y1="-3.36" x2="-3.36" y2="3.44" width="0.254" layer="51"/>
-<wire x1="-3.36" y1="3.44" x2="1.84" y2="3.44" width="0.254" layer="51"/>
-<wire x1="1.84" y1="3.44" x2="3.44" y2="1.84" width="0.254" layer="51"/>
-<wire x1="3.44" y1="1.84" x2="3.44" y2="-1.76" width="0.254" layer="51"/>
-<wire x1="3.44" y1="-1.76" x2="1.84" y2="-3.36" width="0.254" layer="51"/>
-<wire x1="1.84" y1="-3.36" x2="-3.36" y2="-3.36" width="0.254" layer="51"/>
-<wire x1="5.4214" y1="-0.0008" x2="5.1214" y2="-0.0008" width="0.127" layer="51"/>
-<wire x1="5.1214" y1="-0.0008" x2="4.8214" y2="-0.0008" width="0.127" layer="51"/>
-<wire x1="5.1214" y1="-0.0008" x2="5.1214" y2="0.2992" width="0.127" layer="51"/>
-<wire x1="5.1214" y1="-0.0008" x2="5.1214" y2="-0.3008" width="0.127" layer="51"/>
-<wire x1="4.8214" y1="-0.0008" x2="5.4214" y2="-0.0008" width="0.127" layer="21"/>
-<wire x1="5.1214" y1="0.2992" x2="5.1214" y2="-0.3008" width="0.127" layer="21"/>
-<circle x="0.04" y="0.04" radius="3.15" width="0.15" layer="51"/>
-<smd name="2" x="-2.72" y="0.04" dx="3.5" dy="1.6" layer="1"/>
-<smd name="1" x="2.84" y="0.04" dx="3.5" dy="1.6" layer="1"/>
-<text x="0" y="4.65" size="1.778" layer="25" font="vector" align="center">&gt;Name</text>
-<text x="0" y="-4.55" size="1.778" layer="27" font="vector" align="center">&gt;Value</text>
-<polygon width="0.127" layer="39">
-<vertex x="-3.6" y="-1.25"/>
-<vertex x="-3.6" y="-0.85"/>
-<vertex x="-4.25" y="-0.85"/>
-<vertex x="-4.45" y="-0.85"/>
-<vertex x="-4.55" y="-0.85"/>
-<vertex x="-4.55" y="-0.2"/>
-<vertex x="-4.55" y="0.94"/>
-<vertex x="-4.14" y="0.94"/>
-<vertex x="-3.6" y="0.94"/>
-<vertex x="-3.6" y="1.35"/>
-<vertex x="-3.6" y="3.68"/>
-<vertex x="-2.62" y="3.68"/>
-<vertex x="1.97" y="3.68"/>
-<vertex x="2.25" y="3.4"/>
-<vertex x="3.7" y="1.95"/>
-<vertex x="3.7" y="1.55"/>
-<vertex x="3.7" y="0.94"/>
-<vertex x="4.68" y="0.94"/>
-<vertex x="4.68" y="0.56"/>
-<vertex x="4.68" y="-0.85"/>
-<vertex x="3.65" y="-0.85"/>
-<vertex x="3.65" y="-1.9"/>
-<vertex x="3.3" y="-2.25"/>
-<vertex x="1.95" y="-3.6"/>
-<vertex x="-0.25" y="-3.6"/>
-<vertex x="-3.6" y="-3.6"/>
-</polygon>
 </package>
 <package name="CAP-ELEC-SMD_5X5.5" urn="urn:adsk.eagle:footprint:33795999/1">
 <description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
@@ -360,70 +411,8 @@
 <text x="0" y="7" size="3" layer="25" font="vector" align="center">&gt;Name</text>
 <text x="0" y="-7" size="3" layer="27" font="vector" align="center">&gt;Value</text>
 </package>
-<package name="CAP-ELEC-SMD_4X5.5" urn="urn:adsk.eagle:footprint:33796000/1">
-<description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
-&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
-
-&lt;p&gt;Dimensions(DxL): &lt;strong&gt;4x5.5&lt;/strong&gt;&lt;/P&gt;
-
-31.01.2022</description>
-<wire x1="-2.25" y1="-0.95" x2="-2.25" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-2.25" y1="-2.2" x2="1.4" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="1.4" y1="-2.2" x2="2.25" y2="-1.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-1.35" x2="2.25" y2="-0.95" width="0.254" layer="21"/>
-<wire x1="2.25" y1="0.95" x2="2.25" y2="1.45" width="0.254" layer="21"/>
-<wire x1="2.25" y1="1.45" x2="1.4" y2="2.3" width="0.254" layer="21"/>
-<wire x1="1.4" y1="2.3" x2="-2.25" y2="2.3" width="0.254" layer="21"/>
-<wire x1="-2.25" y1="2.3" x2="-2.25" y2="0.95" width="0.254" layer="21"/>
-<wire x1="-2.25" y1="0.95" x2="-2.25" y2="2.3" width="0.254" layer="51"/>
-<wire x1="-2.25" y1="2.3" x2="1.4" y2="2.3" width="0.254" layer="51"/>
-<wire x1="1.4" y1="2.3" x2="2.25" y2="1.45" width="0.254" layer="51"/>
-<wire x1="2.25" y1="1.45" x2="2.25" y2="0.95" width="0.254" layer="51"/>
-<wire x1="2.25" y1="-0.95" x2="2.25" y2="-1.35" width="0.254" layer="51"/>
-<wire x1="2.25" y1="-1.35" x2="1.4" y2="-2.2" width="0.254" layer="51"/>
-<wire x1="1.4" y1="-2.2" x2="-2.25" y2="-2.2" width="0.254" layer="51"/>
-<wire x1="-2.25" y1="-2.2" x2="-2.25" y2="-0.95" width="0.254" layer="51"/>
-<wire x1="3.95" y1="0" x2="3.65" y2="0" width="0.127" layer="51"/>
-<wire x1="3.65" y1="0" x2="3.35" y2="0" width="0.127" layer="51"/>
-<wire x1="3.65" y1="0" x2="3.65" y2="0.3" width="0.127" layer="51"/>
-<wire x1="3.65" y1="0" x2="3.65" y2="-0.3" width="0.127" layer="51"/>
-<wire x1="3.35" y1="0" x2="3.95" y2="0" width="0.127" layer="21"/>
-<wire x1="3.65" y1="0.3" x2="3.65" y2="-0.3" width="0.127" layer="21"/>
-<circle x="0" y="0.05" radius="2" width="0.15" layer="51"/>
-<smd name="2" x="-1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
-<smd name="1" x="1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
-<text x="0" y="3.25" size="1.27" layer="25" font="vector" align="center">&gt;Name</text>
-<text x="0" y="-3.15" size="1.27" layer="27" font="vector" align="center">&gt;Value</text>
-<polygon width="0.127" layer="39">
-<vertex x="-2.5" y="0.9"/>
-<vertex x="-3.2" y="0.9"/>
-<vertex x="-3.2" y="-0.9"/>
-<vertex x="-2.5" y="-0.9"/>
-<vertex x="-2.5" y="-2.45"/>
-<vertex x="1.5" y="-2.45"/>
-<vertex x="2.5" y="-1.45"/>
-<vertex x="2.5" y="-0.9"/>
-<vertex x="3.2" y="-0.9"/>
-<vertex x="3.2" y="0.9"/>
-<vertex x="2.5" y="0.9"/>
-<vertex x="2.5" y="1.55"/>
-<vertex x="1.5" y="2.55"/>
-<vertex x="-2.5" y="2.55"/>
-</polygon>
-</package>
 </packages>
 <packages3d>
-<package3d name="CAP-ELEC-SMD_6.3X5.5" urn="urn:adsk.eagle:package:33796005/2" type="model">
-<description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
-&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
-
-&lt;p&gt;Dimensions(DxL): &lt;strong&gt;6.3x5.5&lt;/strong&gt;&lt;/P&gt;
-
-31.01.2022</description>
-<packageinstances>
-<packageinstance name="CAP-ELEC-SMD_6.3X5.5"/>
-</packageinstances>
-</package3d>
 <package3d name="CAP-ELEC-SMD_6.3X7.7" urn="urn:adsk.eagle:package:33796004/2" type="model">
 <description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
@@ -435,7 +424,18 @@
 <packageinstance name="CAP-ELEC-SMD_6.3X7.7"/>
 </packageinstances>
 </package3d>
-<package3d name="CAP-ELEC-SMD_8X10" urn="urn:adsk.eagle:package:33796003/2" type="model">
+<package3d name="CAP-ELEC-SMD_4X5.5" urn="urn:adsk.eagle:package:33796007/3" type="model">
+<description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
+
+&lt;p&gt;Dimensions(DxL): &lt;strong&gt;4x5.5&lt;/strong&gt;&lt;/P&gt;
+
+31.01.2022</description>
+<packageinstances>
+<packageinstance name="CAP-ELEC-SMD_4X5.5"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP-ELEC-SMD_8X10" urn="urn:adsk.eagle:package:33796003/3" type="model">
 <description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
 
@@ -444,6 +444,17 @@
 31.01.2022</description>
 <packageinstances>
 <packageinstance name="CAP-ELEC-SMD_8X10"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP-ELEC-SMD_6.3X5.5" urn="urn:adsk.eagle:package:33796005/2" type="model">
+<description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
+
+&lt;p&gt;Dimensions(DxL): &lt;strong&gt;6.3x5.5&lt;/strong&gt;&lt;/P&gt;
+
+31.01.2022</description>
+<packageinstances>
+<packageinstance name="CAP-ELEC-SMD_6.3X5.5"/>
 </packageinstances>
 </package3d>
 <package3d name="CAP-ELEC-SMD_5X5.5" urn="urn:adsk.eagle:package:33796006/2" type="model">
@@ -468,17 +479,6 @@
 <packageinstance name="CAP-ELEC-SMD_10X10.5"/>
 </packageinstances>
 </package3d>
-<package3d name="CAP-ELEC-SMD_4X5.5" urn="urn:adsk.eagle:package:33796007/3" type="model">
-<description>&lt;h2&gt; Nacht Elk - Electrolytic Capacitors &lt;/h2&gt;
-&lt;h4&gt;Ekrem Turan Frat &lt;/h4&gt;
-
-&lt;p&gt;Dimensions(DxL): &lt;strong&gt;4x5.5&lt;/strong&gt;&lt;/P&gt;
-
-31.01.2022</description>
-<packageinstances>
-<packageinstance name="CAP-ELEC-SMD_4X5.5"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="CAP-POL" urn="urn:adsk.eagle:symbol:33796001/3">
@@ -501,7 +501,47 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NACHTELK_CAP-ELEC-SMD_100UF" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:33796008/9">
+<deviceset name="NACHTELK_CAP-ELEC-SMD_0.33UF" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:35244743/3">
+<description>&lt;h2&gt;Nacht Elk. - Electrolytic Capacitors &lt;/h2&gt;
+&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
+&lt;p&gt;Nacht Elk. - Electrolytic Capacitors&lt;br&gt; Value:&lt;strong&gt; 0.33 µF (MicroFarad)&lt;/strong&gt;
+&lt;br&gt;Maximum operating voltage: &lt;strong&gt;50V &lt;/strong&gt;
+&lt;br&gt;Tolerance: &lt;strong&gt;±20% &lt;/strong&gt;
+&lt;br&gt; Operating Life: &lt;strong&gt;5000 clock &lt;/strong&gt;
+&lt;br&gt; Operating temperature: &lt;strong&gt; -40°C up to +105°C &lt;/strong&gt;
+&lt;br&gt; Mount Type: &lt;strong&gt;SMD &lt;/strong&gt; 
+&lt;br&gt;Package: &lt;strong&gt;4x5.5&lt;/strong&gt;  &lt;/p&gt;
+
+12.04.2022</description>
+<gates>
+<gate name="G$1" symbol="CAP-POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_4X5.5" package="CAP-ELEC-SMD_4X5.5">
+<connects>
+<connect gate="G$1" pin="ANOT" pad="1"/>
+<connect gate="G$1" pin="KATOT" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33796007/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGI-KEY_NUMBER" value="732-8268-1-ND"/>
+<attribute name="MOUNT-TYPE" value="SMD"/>
+<attribute name="OPERATING-LIFE" value="5000 clock"/>
+<attribute name="PACKAGE" value="4x5.5"/>
+<attribute name="PART-NUMBER" value="865230640003"/>
+<attribute name="TEMPERATURE" value=" -40°C up to +105°C"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="0.33 µF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NACHTELK_CAP-ELEC-SMD_100UF" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:33796008/10">
 <description>&lt;h2&gt;Nacht Elk. - Electrolytic Capacitors &lt;/h2&gt;
 &lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
 &lt;p&gt;Nacht Elk. - Electrolytic Capacitors&lt;br&gt; Value:&lt;strong&gt; 100 µF (MicroFarad)&lt;/strong&gt;
@@ -589,7 +629,7 @@
 <connect gate="G$1" pin="KATOT" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33796003/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33796003/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_50V">
@@ -624,46 +664,6 @@
 <attribute name="TOLERANCE" value="±20%"/>
 <attribute name="VALUE" value=" 100 µF " constant="no"/>
 <attribute name="VOLTAGE" value="63V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NACHTELK_CAP-ELEC-SMD_0.33UF" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:35244743/3">
-<description>&lt;h2&gt;Nacht Elk. - Electrolytic Capacitors &lt;/h2&gt;
-&lt;h4&gt;Ekrem Turan Fırat &lt;/h4&gt;
-&lt;p&gt;Nacht Elk. - Electrolytic Capacitors&lt;br&gt; Value:&lt;strong&gt; 0.33 µF (MicroFarad)&lt;/strong&gt;
-&lt;br&gt;Maximum operating voltage: &lt;strong&gt;50V &lt;/strong&gt;
-&lt;br&gt;Tolerance: &lt;strong&gt;±20% &lt;/strong&gt;
-&lt;br&gt; Operating Life: &lt;strong&gt;5000 clock &lt;/strong&gt;
-&lt;br&gt; Operating temperature: &lt;strong&gt; -40°C up to +105°C &lt;/strong&gt;
-&lt;br&gt; Mount Type: &lt;strong&gt;SMD &lt;/strong&gt; 
-&lt;br&gt;Package: &lt;strong&gt;4x5.5&lt;/strong&gt;  &lt;/p&gt;
-
-12.04.2022</description>
-<gates>
-<gate name="G$1" symbol="CAP-POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_4X5.5" package="CAP-ELEC-SMD_4X5.5">
-<connects>
-<connect gate="G$1" pin="ANOT" pad="1"/>
-<connect gate="G$1" pin="KATOT" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33796007/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGI-KEY_NUMBER" value="732-8268-1-ND"/>
-<attribute name="MOUNT-TYPE" value="SMD"/>
-<attribute name="OPERATING-LIFE" value="5000 clock"/>
-<attribute name="PACKAGE" value="4x5.5"/>
-<attribute name="PART-NUMBER" value="865230640003"/>
-<attribute name="TEMPERATURE" value=" -40°C up to +105°C"/>
-<attribute name="TOLERANCE" value="±20%"/>
-<attribute name="VALUE" value="0.33 µF" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
